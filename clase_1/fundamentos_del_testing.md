@@ -27,7 +27,16 @@
 </ul>
 
 <h2 id="enlace-2">Definición de Testing</h2>
-<p>Contenido de la sección Definición de Testing</p>
+
+<p>El testing es el proceso de evaluar un sistema o componente para detectar defectos y verificar que cumpla con los requisitos especificados. El objetivo del testing es mejorar la calidad del software y reducir el riesgo de errores y fallos en producción.</p>
+<p>El testing se puede realizar en diferentes niveles, desde pruebas unitarias hasta pruebas de integración y de aceptación del usuario. También existen diferentes tipos de testing, como pruebas funcionales, de rendimiento y de seguridad, entre otras.</p>
+
+<h3>Es la actividad centrada en</h3>
+<ul>
+<li>Encontrar defectos</li>
+<li>Obtener confianza de calidad y proveer información</li>
+<li>Prevenir defectos</li>
+</ul>
 
 <h2 id="enlace-3">Validación y Verificación</h2>
 <p>Contenido de la sección Validación y Verificación</p>
