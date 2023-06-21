@@ -17,13 +17,14 @@
 <p>La calidad se puede medir en términos de funcionalidad, rendimiento, seguridad y usabilidad, entre otros aspectos. Es importante tener en cuenta que la calidad no es algo que se pueda agregar al final del proceso de desarrollo, sino que debe ser una consideración clave desde el principio.</p>
 
 <h3>Algunos aspectos clave de la calidad del software son:</h3>
-- Funcionalidad: El software debe cumplir con los requisitos funcionales establecidos, es decir, realizar las tareas y funciones para las que fue diseñado de manera precisa y confiable.
-- Rendimiento: El software debe funcionar de manera eficiente y responder de manera rápida, especialmente en situaciones de carga o alto volumen de datos.
-- Fiabilidad: El software debe ser confiable y consistente en su comportamiento, evitando errores y fallas inesperadas.
-- Usabilidad: El software debe ser fácil de usar, intuitivo y amigable para los usuarios, permitiendo una interacción fluida y eficiente.
-- Mantenibilidad: El software debe ser fácil de mantener y actualizar, con código bien estructurado y documentación clara para facilitar las modificaciones y correcciones en el futuro.
-- Seguridad: El software debe proteger los datos y la privacidad de los usuarios, implementando medidas de seguridad adecuadas para prevenir vulnerabilidades y ataques.
-
+<ul>
+<li>Funcionalidad: El software debe cumplir con los requisitos funcionales establecidos, es decir, realizar las tareas y funciones para las que fue diseñado de manera precisa y confiable.</li>
+<li>Rendimiento: El software debe funcionar de manera eficiente y responder de manera rápida, especialmente en situaciones de carga o alto volumen de datos.</li>
+<li>Fiabilidad: El software debe ser confiable y consistente en su comportamiento, evitando errores y fallas inesperadas.</li>
+<li>Usabilidad: El software debe ser fácil de usar, intuitivo y amigable para los usuarios, permitiendo una interacción fluida y eficiente.</li>
+<li>Mantenibilidad: El software debe ser fácil de mantener y actualizar, con código bien estructurado y documentación clara para facilitar las modificaciones y correcciones en el futuro.</li>
+<li>Seguridad: El software debe proteger los datos y la privacidad de los usuarios, implementando medidas de seguridad adecuadas para prevenir vulnerabilidades y ataques.</li>
+</ul>
 
 <h2 id="enlace-2">Definición de Testing</h2>
 <p>Contenido de la sección Definición de Testing</p>
