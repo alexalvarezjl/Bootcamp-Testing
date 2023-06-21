@@ -12,7 +12,9 @@
 ...
 
 <h2 id="enlace-1">¿Qué es calidad?</h2>
-<p>Contenido de la sección ¿Qué es calidad?</p>
+<p>La calidad se refiere al grado en que un producto o servicio cumple con los requisitos y expectativas del cliente. En el desarrollo de software, la calidad es esencial para asegurar que el producto final sea seguro, confiable y fácil de usar.</p>
+
+<p>La calidad se puede medir en términos de funcionalidad, rendimiento, seguridad y usabilidad, entre otros aspectos. Es importante tener en cuenta que la calidad no es algo que se pueda agregar al final del proceso de desarrollo, sino que debe ser una consideración clave desde el principio.</p>
 
 <h2 id="enlace-2">Definición de Testing</h2>
 <p>Contenido de la sección Definición de Testing</p>
