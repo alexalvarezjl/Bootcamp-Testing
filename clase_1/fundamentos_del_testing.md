@@ -106,6 +106,11 @@
 <li>Mantenimiento: Después de la implementación, el software puede requerir actualizaciones, correcciones de errores o mejoras adicionales. El equipo de desarrollo proporciona soporte continuo para asegurar el correcto funcionamiento del software a lo largo del tiempo.</li>
 </ol>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/ciclo_de_vida_software.png" alt="Testing en el ciclo de vida del software">
+</p>
+
+
 <p>El testing se integra en cada etapa del ciclo de vida del software para garantizar que el software cumpla con los requisitos del usuario final y funcione correctamente en diferentes entornos.</p>
 
 <h2 id="enlace-6">Principios del testing</h2>
