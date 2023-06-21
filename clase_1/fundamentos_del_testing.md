@@ -95,7 +95,18 @@
 </p>
 
 <h2 id="enlace-5">Testing en el ciclo de vida del desarrollo del software</h2>
-<p>Contenido de la sección Testing en el ciclo de vida del desarrollo del software</p>
+<p>El ciclo de vida del software se refiere a las diferentes etapas por las que pasa un software desde su concepción hasta su retirada. Estas etapas incluyen el análisis de requisitos, el diseño, la implementación, las pruebas y el mantenimiento.</p>
+
+<ol>
+<li>Requisitos: En esta etapa inicial, se recopilan y analizan los requisitos del software. Se determinan las necesidades del cliente y se definen las funcionalidades y características que debe tener el software.</li>
+<li>Diseño: En esta etapa, se crea el diseño del software en base a los requisitos establecidos. Se definen la arquitectura, la estructura y los componentes del sistema, así como las interacciones entre ellos.</li>
+<li>Desarrollo: En esta fase, se lleva a cabo la codificación del software. Los programadores utilizan lenguajes de programación y herramientas específicas para escribir el código que implementa las funcionalidades definidas en las etapas anteriores.</li>
+<li>Pruebas: Esta etapa es crucial para garantizar la calidad del software. Se realizan pruebas exhaustivas para detectar errores, verificar que el software cumpla con los requisitos y evaluar su rendimiento. Se utilizan diferentes técnicas de pruebas, como pruebas unitarias, pruebas de integración y pruebas de aceptación.</li>
+<li>Implementación: En esta fase, el software se prepara para su despliegue en el entorno de producción. Se lleva a cabo la instalación, configuración y puesta en marcha del software en los sistemas del cliente.</li>
+<li>Mantenimiento: Después de la implementación, el software puede requerir actualizaciones, correcciones de errores o mejoras adicionales. El equipo de desarrollo proporciona soporte continuo para asegurar el correcto funcionamiento del software a lo largo del tiempo.</li>
+</ol>
+
+<p>El testing se integra en cada etapa del ciclo de vida del software para garantizar que el software cumpla con los requisitos del usuario final y funcione correctamente en diferentes entornos.</p>
 
 <h2 id="enlace-6">Principios del testing</h2>
 <p>Contenido de la sección Principios del testing</p>
