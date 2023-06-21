@@ -1,10 +1,33 @@
 <h1>¿Qué aprenderemos hoy?</h1>
 <ol>
-<li><a name="que_es_calidad">¿Qué es calidad?</a></li>
-<li>Definicion de Testing</li>
-<li>Validación y Verificación</li>
-<li>Importancia del testing</li>
-<li>Testing en el ciclo de vida del desarrollo del software</li>
-<li>Principios del testing</li>
-<li>Actividades y Roles dentro del testing</li>
+<li><a href="#enlace-1">¿Qué es calidad?</a></li>
+<li><a href="#enlace-2">Definición de Testing</a></li>
+<li><a href="#enlace-3">Validación y Verificación</a></li>
+<li><a href="#enlace-4">Importancia del testing</a></li>
+<li><a href="#enlace-5">Testing en el ciclo de vida del desarrollo del software</a></li>
+<li><a href="#enlace-6">Principios del testing</a></li>
+<li><a href="#enlace-7">Actividades y Roles dentro del testing</a></li>
 </ol>
+
+...
+
+<h2 id="enlace-1">¿Qué es calidad?</h2>
+<p>Contenido de la sección ¿Qué es calidad?</p>
+
+<h2 id="enlace-2">Definición de Testing</h2>
+<p>Contenido de la sección Definición de Testing</p>
+
+<h2 id="enlace-3">Validación y Verificación</h2>
+<p>Contenido de la sección Validación y Verificación</p>
+
+<h2 id="enlace-4">Importancia del testing</h2>
+<p>Contenido de la sección Importancia del testing</p>
+
+<h2 id="enlace-5">Testing en el ciclo de vida del desarrollo del software</h2>
+<p>Contenido de la sección Testing en el ciclo de vida del desarrollo del software</p>
+
+<h2 id="enlace-6">Principios del testing</h2>
+<p>Contenido de la sección Principios del testing</p>
+
+<h2 id="enlace-7">Actividades y Roles dentro del testing</h2>
+<p>Contenido de la sección Actividades y Roles dentro del testing</p>
