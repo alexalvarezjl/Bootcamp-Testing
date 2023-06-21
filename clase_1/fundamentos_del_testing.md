@@ -158,3 +158,31 @@ Cada tipo de testing se enfoca en diferentes aspectos del software y es apropiad
 <p align="center">
   <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/lider_analista_funciones.png" alt="Roles">
 </p>
+
+<h3>¿Cuál es el margen de aceptación para que un software salga a producción?</h3>
+<ol>
+<li>Cumplimiento de requisitos: Es importante verificar si el software cumple con los requisitos establecidos por el cliente y las especificaciones del proyecto. Si se ha demostrado que el software cumple con todos los requisitos funcionales y no funcionales acordados, esto puede indicar que está listo para su lanzamiento.</li>
+<li>Estabilidad y fiabilidad: El software debe ser estable y confiable, sin errores críticos o fallas que puedan comprometer su funcionalidad o la experiencia del usuario. Si el software ha sido sometido a pruebas exhaustivas y se ha demostrado que es estable y confiable en diferentes escenarios, esto aumenta la confianza para su lanzamiento.</li>
+<li>Calidad de las pruebas: El nivel de cobertura y calidad de las pruebas realizadas es un factor clave. Si se han llevado a cabo pruebas exhaustivas y se han identificado y corregido la mayoría de los errores, el software estará más preparado para su lanzamiento.</li>
+<li>Evaluación del usuario: Obtener retroalimentación de los usuarios y/o realizar pruebas de aceptación por parte del cliente puede ayudar a determinar si el software cumple con las expectativas y necesidades del usuario final. Si los usuarios están satisfechos con el software y no se identifican problemas graves durante estas pruebas, esto puede ser un indicador positivo para el lanzamiento.</li>
+<li>Análisis de riesgos: Evaluar y gestionar los riesgos asociados con el software también es importante. Si se han identificado los riesgos clave y se han tomado medidas para mitigarlos, esto puede influir en la decisión de lanzamiento.</li>
+</ol>
+
+<h4>Hay situaciones en las que un software puede lanzarse a producción a pesar de tener errores debido a necesidades o presiones específicas.</h4>
+<ol>
+<li>Plazos ajustados: Si existe una fecha límite inminente o un plazo crítico para lanzar el software, puede haber presiones para cumplir con el cronograma y se podría decidir lanzarlo a pesar de la presencia de errores conocidos. Esto puede deberse a factores como compromisos comerciales, eventos importantes o contratos que deben cumplirse.</li>
+<li>Limitaciones de recursos: Si los recursos, como el tiempo, el presupuesto o el personal, son escasos o limitados, puede haber dificultades para corregir todos los errores antes del lanzamiento. En tales casos, se podría tomar la decisión de lanzar el software con errores conocidos con el objetivo de abordarlos posteriormente mediante actualizaciones o parches.<li>
+<li>Presión del mercado: En algunos casos, existe una demanda urgente en el mercado para lanzar el software y obtener una ventaja competitiva. En estas situaciones, podría haber una motivación para lanzar el software incluso con errores, con la intención de iterar y mejorar rápidamente en función de la retroalimentación de los usuarios.<li>
+<li>Factores de costo-beneficio: Dependiendo de la gravedad y el impacto de los errores identificados, puede haber un análisis de costo-beneficio que indique que los beneficios de lanzar el software superan los costos y riesgos asociados con los errores. Esto podría ser especialmente relevante si los errores no afectan críticamente la funcionalidad principal del software.<li>
+</ol>
+
+<h4>Actividad; ¿cuánto testing es necesario?</h4>
+<h5>Responda V ó F donde V es verdadero y F</h5>
+<ol>
+<li>Nunca es demasiado - F: El testing no puede ser infinito, ya que se requieren recursos y tiempo limitados. Es importante encontrar un equilibrio entre la cantidad de testing y los objetivos del proyecto.</li>
+<li>Cuando se alcanzó con lo planeado - V: El testing generalmente se lleva a cabo de acuerdo con un plan establecido que define las actividades, los objetivos y los criterios de finalización. Cuando se ha realizado todo el testing planificado, se puede considerar alcanzado lo planeado.</li>
+<li>Cuando el cliente está satisfecho - F: La satisfacción del cliente es un indicador importante, pero no es suficiente para determinar la cantidad necesaria de testing. El cliente puede estar satisfecho sin que se haya realizado un testing completo y exhaustivo.</li>
+<li>Cuando se ha demostrado que el sistema trabaja correctamente - V: El objetivo principal del testing es demostrar que el sistema funciona correctamente. Cuando se ha verificado y validado el sistema y se ha comprobado su correcto funcionamiento, se puede considerar que se ha realizado suficiente testing.</li>
+<li>Cuando se finaliza con lo que está incluido en el plan de proyecto - V: Si el plan de proyecto incluye un conjunto específico de actividades de testing y se han completado todas esas actividades de acuerdo con el plan, entonces se puede considerar que se ha realizado el testing necesario.</li>
+<li>Depende de los riesgos del sistema - V: La cantidad de testing necesaria puede variar según los riesgos asociados con el sistema. Si el sistema tiene riesgos críticos o consecuencias graves en caso de fallos, se requerirá un testing más exhaustivo. Es importante evaluar y abordar los riesgos del sistema para determinar la cantidad necesaria de testing.</li>
+</ol>
