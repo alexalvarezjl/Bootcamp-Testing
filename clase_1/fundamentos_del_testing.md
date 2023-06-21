@@ -114,6 +114,19 @@ Recuerda que para lograr un software de calidad, es esencial realizar pruebas ex
   <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/ciclo_de_vida_software.png" alt="Testing en el ciclo de vida del software">
 </p>
 
+<p>El testing se realiza en diferentes etapas del ciclo de vida de desarrollo de software, desde la planificación hasta la implementación y mantenimiento. En cada etapa, se realizan pruebas específicas para evaluar la funcionalidad, el rendimiento y otros aspectos del software.</p>
+
+<p>El testing también se integra con otras actividades de desarrollo, como la gestión de requisitos, el diseño y la codificación. Esto permite detectar errores y problemas en etapas tempranas del proceso, lo que ayuda a reducir el costo y el tiempo de desarrollo.</p>
+
+<h3>¿Por qué es recomendable hacer pruebas tempranas del software?</h3>
+<ul>
+<li>Detección temprana de defectos: Realizar pruebas en las etapas iniciales del desarrollo ayuda a identificar y corregir defectos rápidamente. Esto evita que los problemas se propaguen y se vuelvan más costosos y difíciles de solucionar en etapas posteriores.</li>
+<li>Ahorro de costos: Corregir defectos tempranamente es más económico que abordarlos en etapas avanzadas o incluso en producción. Los errores detectados en las primeras etapas del desarrollo son más fáciles de corregir y requieren menos recursos y esfuerzo para solucionarlos.</li>
+<li>Mejora de la eficiencia: El testing temprano permite identificar y eliminar defectos en el software antes de que se conviertan en problemas mayores. Esto ayuda a mejorar la eficiencia general del proceso de desarrollo y evita retrabajos y retrasos innecesarios.</li>
+<li>Asegurar la calidad desde el principio: Al realizar pruebas tempranas, se establece un enfoque centrado en la calidad desde las etapas iniciales del desarrollo. Esto contribuye a la construcción de un software más confiable, robusto y que cumpla con los requisitos y expectativas del cliente.</li>
+<li>Mayor confianza en el producto: Las pruebas tempranas permiten obtener una visión clara de la calidad del software y proporcionan una mayor confianza en el producto final. Al detectar y solucionar los problemas en etapas tempranas, se genera una base sólida y confiable para el desarrollo continuo del software.</li>
+<li>Iteraciones y retroalimentación temprana: Al realizar pruebas tempranas, se obtiene información valiosa y retroalimentación sobre el software en las primeras etapas. Esto facilita la iteración y el ajuste temprano del diseño y la funcionalidad del software, lo que contribuye a su mejora y adaptación a los requisitos del usuario.</li>
+</ul>
 
 <h2 id="enlace-6">Principios del testing</h2>
 <p>Contenido de la sección Principios del testing</p>
