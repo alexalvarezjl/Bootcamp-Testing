@@ -154,3 +154,7 @@ Cada tipo de testing se enfoca en diferentes aspectos del software y es apropiad
 <p>El rol del tester es fundamental en el proceso de desarrollo de software, ya que es responsable de planificar, diseñar y ejecutar las pruebas necesarias para asegurar la calidad del producto final. El tester también debe trabajar estrechamente con otros miembros del equipo de desarrollo para identificar y corregir errores y problemas en el software.</p>
 <p>Un QA (Quality Assurance) es responsable de garantizar que el software cumpla con los requisitos del usuario final y funcione correctamente en diferentes entornos. Los roles de un QA pueden incluir la planificación y ejecución de pruebas, la identificación y reporte de errores y defectos, y la colaboración con otros miembros del equipo de desarrollo de software.</p>
 <p>Para ser un buen QA, se requieren habilidades como la atención al detalle, la capacidad de análisis y resolución de problemas, y la comunicación efectiva. El trabajo de un QA es vital para mejorar la calidad del software y garantizar la satisfacción del usuario final.</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/lider_analista_funciones.png" alt="Roles">
+</p>
