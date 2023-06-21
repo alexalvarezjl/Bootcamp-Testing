@@ -63,6 +63,19 @@
 </p>
 
 
+
+<h3>¿Un ejemplo? Claro que sí</h3>
+<ul>
+<li>Inspección: se refiere a examinar un producto o sistema sin intervenir en él. Puede ser la simple manipulación física o tomar medidas, por ejemplo.</li>
+<p>Software: examinar visualmente el software para constatar que existan las pantallas solicitadas, chequear que estén los campos necesarios para el ingreso de datos (nombre de usuario, por ejemplo), verificar que existan todos los botones para las funcionalidades solicitadas, etc.</p>
+<li>Demostración: es la manipulación del producto como se espera que sea usado, para verificar que se comporte como se planificó o de acuerdo a las expectativas.</li>
+<p>Software: ingresar todos los campos en las pantallas y seleccionar los botones que cumplan con lo solicitado, esperando la respuesta específica. Asegurar que los datos devueltos son del tipo requerido.</p>
+<li>Prueba: es la verificación del producto o sistema utilizando una serie de estímulos, datos o ingresos predeterminados para corroborar que el producto produzca un resultado específico y predefinido en los requerimientos.</li>
+<p>Software: ingresar el tipo y modelo de automóvil, con levanta cristales eléctrico, dirección asistida, y el resto de las opciones definidas en el plan de pruebas, seleccionar el botón de “obtener precio ya” y que la aplicación devuelva el valor preciso de “$43.690”.</p>
+<li>Análisis: es la verificación del producto o sistema utilizando modelos, cálculos y equipos de pruebas especializados. Esta etapa permite que se puedan hacer predicciones sobre el desempeño o performance típicos del producto o software basados en resultados confirmados de las pruebas. También se pueden combinar estos resultados para ofrecer mayor información sobre el producto para poder estimar los rangos límites de performance.</li>
+<p>Software: completar una serie de pruebas en las que un número predeterminado de usuarios ingresan las características del automóvil que están intentando cotizar e inician la función “obtener precio” al mismo tiempo. Se mide el tiempo de respuesta para corroborar que la función devuelve un precio dentro de los límites de tiempo preestablecidos. Se analiza la relación entre el incremento de usuarios en el sistema y el tiempo que le toma a la función devolver el precio. Se documentan los resultados y el tiempo de cada prueba para ver si se degrada la performance a medida que el sistema recibe mayor carga para detectar cuándo es el momento en el que el sistema deja de cumplir con las expectativas definidas en los requerimientos.</p>
+</ul>
+
 <h2 id="enlace-4">Importancia del testing</h2>
 <p>El testing es esencial en el desarrollo de software porque ayuda a detectar y corregir errores antes de que el producto final llegue al usuario. Esto no solo mejora la calidad del software, sino que también reduce el costo y el tiempo de desarrollo.</p>
 <p>Además, el testing permite identificar problemas de rendimiento, seguridad y usabilidad, entre otros aspectos, lo que ayuda a mejorar la experiencia del usuario y la satisfacción del cliente. En resumen, el testing es una inversión importante en la calidad y el éxito del producto final.</p>
