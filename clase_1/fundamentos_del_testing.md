@@ -94,6 +94,10 @@
   <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/costo_errores_testing.png" alt="Costo de los errores">
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/objetivos_del_testing.png" alt="Objetivos del testing">
+</p>
+
 <h2 id="enlace-5">Testing en el ciclo de vida del desarrollo del software</h2>
 <p>El ciclo de vida del software se refiere a las diferentes etapas por las que pasa un software desde su concepción hasta su retirada. Estas etapas incluyen el análisis de requisitos, el diseño, la implementación, las pruebas y el mantenimiento.</p>
 <p>El testing se integra en cada etapa del ciclo de vida del software para garantizar que el software cumpla con los requisitos del usuario final y funcione correctamente en diferentes entornos.</p>
@@ -129,7 +133,22 @@ Recuerda que para lograr un software de calidad, es esencial realizar pruebas ex
 </ul>
 
 <h2 id="enlace-6">Principios del testing</h2>
-<p>Contenido de la sección Principios del testing</p>
+<p>Los principios fundamentales del testing incluyen la exhaustividad, la reproducibilidad, la objetividad y la independencia. Estos principios ayudan a garantizar que el testing sea riguroso y confiable.</p>
 
+<h3>Tipos de testing</h3>
+<p>Existen diferentes tipos de testing que se pueden hacer en un proyecto de software, incluyendo pruebas unitarias, pruebas de integración, pruebas funcionales y pruebas de aceptación. 
+Cada tipo de testing se enfoca en diferentes aspectos del software y es apropiado en diferentes etapas del ciclo de vida del software.</p>
+
+<ol>
+<li>Pruebas de unidad: Son pruebas que se centran en probar unidades individuales de código, como funciones o módulos, de manera aislada para verificar que funcionen correctamente.</li>
+<li>Pruebas de integración: Se realizan para evaluar la correcta interacción y funcionamiento conjunto de varios componentes o módulos del software que se integran para formar un sistema completo.</li>
+<li>Pruebas de sistema: Se llevan a cabo en el software completo, evaluando el sistema como una entidad integral para asegurar que cumpla con los requisitos y funcionalidades definidas.</li>
+<li>Pruebas de aceptación: Son pruebas realizadas desde la perspectiva del usuario final o el cliente para validar si el software cumple con los criterios de aceptación y las necesidades del usuario.</li>
+<li>Pruebas de rendimiento: Evalúan la capacidad del software para manejar cargas de trabajo específicas y su respuesta en términos de tiempo de respuesta, rendimiento y eficiencia.</li>
+<li>Pruebas de seguridad: Se centran en identificar posibles vulnerabilidades y riesgos de seguridad en el software, asegurando la protección de los datos y la privacidad del usuario.</li>
+</ol>
+
+<p>Es importante hacer pruebas exhaustivas para garantizar que el software sea de alta calidad y cumpla con los requisitos del usuario final. El testing también puede ayudar a identificar áreas de mejora en el software y guiar el desarrollo futuro.
+</p>
 <h2 id="enlace-7">Actividades y Roles dentro del testing</h2>
 <p>Contenido de la sección Actividades y Roles dentro del testing</p>
