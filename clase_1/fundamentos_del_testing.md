@@ -96,6 +96,7 @@
 
 <h2 id="enlace-5">Testing en el ciclo de vida del desarrollo del software</h2>
 <p>El ciclo de vida del software se refiere a las diferentes etapas por las que pasa un software desde su concepción hasta su retirada. Estas etapas incluyen el análisis de requisitos, el diseño, la implementación, las pruebas y el mantenimiento.</p>
+<p>El testing se integra en cada etapa del ciclo de vida del software para garantizar que el software cumpla con los requisitos del usuario final y funcione correctamente en diferentes entornos.</p>
 
 <ol>
 <li>Requisitos: En esta etapa inicial, se recopilan y analizan los requisitos del software. Se determinan las necesidades del cliente y se definen las funcionalidades y características que debe tener el software.</li>
@@ -106,12 +107,13 @@
 <li>Mantenimiento: Después de la implementación, el software puede requerir actualizaciones, correcciones de errores o mejoras adicionales. El equipo de desarrollo proporciona soporte continuo para asegurar el correcto funcionamiento del software a lo largo del tiempo.</li>
 </ol>
 
+<p>Es importante tener en cuenta que el SDLC puede variar dependiendo de la metodología de desarrollo utilizada, como el enfoque en cascada, el desarrollo ágil, entre otros.
+Recuerda que para lograr un software de calidad, es esencial realizar pruebas exhaustivas durante el ciclo de vida de producción y mantener un enfoque constante en la satisfacción de los requisitos del cliente.</p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/ciclo_de_vida_software.png" alt="Testing en el ciclo de vida del software">
 </p>
 
-
-<p>El testing se integra en cada etapa del ciclo de vida del software para garantizar que el software cumpla con los requisitos del usuario final y funcione correctamente en diferentes entornos.</p>
 
 <h2 id="enlace-6">Principios del testing</h2>
 <p>Contenido de la sección Principios del testing</p>
