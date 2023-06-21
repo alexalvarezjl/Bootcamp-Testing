@@ -1,6 +1,6 @@
 <h1>¿Qué aprenderemos hoy?</h1>
 <ol>
-<li>¿Qué es calidad?</li>
+<li><a name="que_es_calidad">¿Qué es calidad?</a></li>
 <li>Definicion de Testing</li>
 <li>Validación y Verificación</li>
 <li>Importancia del testing</li>
