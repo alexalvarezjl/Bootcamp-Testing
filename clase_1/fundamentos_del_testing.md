@@ -58,7 +58,7 @@
 <li>Etapa de despliegue y mantenimiento: Incluso después de que el software se ha implementado y puesto en producción, es importante realizar verificación y validación en etapas posteriores. Esto puede incluir pruebas de regresión para asegurar que las actualizaciones o correcciones no hayan introducido nuevos errores, así como la validación continua de que el software sigue siendo adecuado para su propósito previsto y cumple con los requisitos cambiantes.</li>
 </ul>
 <p align="center">
-<img src="Bootcamp-Testing-Kolektor\archivos\verificacion_validacion.png" alt="verificacion y validacion">
+<img src="![verificacion y validacion](https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/verificacion_validacion.png)">
 </p>
 <h2 id="enlace-4">Importancia del testing</h2>
 <p>Contenido de la sección Importancia del testing</p>
