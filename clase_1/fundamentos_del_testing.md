@@ -75,8 +75,11 @@
 <li>Reducción de riesgos: El testing ayuda a mitigar los riesgos asociados con el software. Identificar y solucionar problemas durante las etapas de testing permite evitar problemas mayores en la etapa de producción o en el uso real del software. Al detectar y corregir errores tempranamente, se reducen los riesgos de pérdida de datos, mal funcionamiento del software y problemas de seguridad.</li>
 <li>Mejora de la confianza del usuario: El testing contribuye a generar confianza en el software por parte de los usuarios. Al someter el software a pruebas rigurosas, se demuestra que se ha realizado un esfuerzo para garantizar su calidad y funcionalidad. Esto brinda a los usuarios la confianza de que el software funcionará correctamente y cumplirá con sus necesidades.</li>
 <li>Mejora continua: El testing no solo se limita a la detección de errores, sino que también proporciona información valiosa para la mejora continua del software. Los resultados de las pruebas permiten identificar áreas de mejora, optimizar el rendimiento, corregir fallas y ajustar funcionalidades. Esto contribuye a la evolución y actualización constante del software.</li>
-
 </ul>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/costo_errores_testing.png" alt="Costo de los errores">
+</p>
 
 <h2 id="enlace-5">Testing en el ciclo de vida del desarrollo del software</h2>
 <p>Contenido de la sección Testing en el ciclo de vida del desarrollo del software</p>
