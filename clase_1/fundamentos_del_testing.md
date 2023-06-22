@@ -171,9 +171,12 @@ Cada tipo de testing se enfoca en diferentes aspectos del software y es apropiad
 <h4>Hay situaciones en las que un software puede lanzarse a producción a pesar de tener errores debido a necesidades o presiones específicas.</h4>
 <ol>
 <li>Plazos ajustados: Si existe una fecha límite inminente o un plazo crítico para lanzar el software, puede haber presiones para cumplir con el cronograma y se podría decidir lanzarlo a pesar de la presencia de errores conocidos. Esto puede deberse a factores como compromisos comerciales, eventos importantes o contratos que deben cumplirse.</li>
-<li>Limitaciones de recursos: Si los recursos, como el tiempo, el presupuesto o el personal, son escasos o limitados, puede haber dificultades para corregir todos los errores antes del lanzamiento. En tales casos, se podría tomar la decisión de lanzar el software con errores conocidos con el objetivo de abordarlos posteriormente mediante actualizaciones o parches.<li>
-<li>Presión del mercado: En algunos casos, existe una demanda urgente en el mercado para lanzar el software y obtener una ventaja competitiva. En estas situaciones, podría haber una motivación para lanzar el software incluso con errores, con la intención de iterar y mejorar rápidamente en función de la retroalimentación de los usuarios.<li>
-<li>Factores de costo-beneficio: Dependiendo de la gravedad y el impacto de los errores identificados, puede haber un análisis de costo-beneficio que indique que los beneficios de lanzar el software superan los costos y riesgos asociados con los errores. Esto podría ser especialmente relevante si los errores no afectan críticamente la funcionalidad principal del software.<li>
+
+<li>Limitaciones de recursos: Si los recursos, como el tiempo, el presupuesto o el personal, son escasos o limitados, puede haber dificultades para corregir todos los errores antes del lanzamiento. En tales casos, se podría tomar la decisión de lanzar el software con errores conocidos con el objetivo de abordarlos posteriormente mediante actualizaciones o parches.</li>
+
+<li>Presión del mercado: En algunos casos, existe una demanda urgente en el mercado para lanzar el software y obtener una ventaja competitiva. En estas situaciones, podría haber una motivación para lanzar el software incluso con errores, con la intención de iterar y mejorar rápidamente en función de la retroalimentación de los usuarios.</li>
+
+<li>Factores de costo-beneficio: Dependiendo de la gravedad y el impacto de los errores identificados, puede haber un análisis de costo-beneficio que indique que los beneficios de lanzar el software superan los costos y riesgos asociados con los errores. Esto podría ser especialmente relevante si los errores no afectan críticamente la funcionalidad principal del software.</li>
 </ol>
 
 <h4>Actividad; ¿cuánto testing es necesario?</h4>
