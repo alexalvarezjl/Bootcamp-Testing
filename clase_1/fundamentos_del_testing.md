@@ -27,7 +27,7 @@
 </ul>
 
 <p align="center">
-  <img src="hhttps://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_1.png" alt="resumen_1">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_1.png" alt="resumen_1">
 </p>
 
 <h2 id="enlace-2">Definición de Testing</h2>
@@ -71,8 +71,6 @@
   <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/verificacion_validacion.png" alt="verificacion y validacion">
 </p>
 
-
-
 <h3>¿Un ejemplo? Claro que sí</h3>
 <ul>
 <li>Inspección: se refiere a examinar un producto o sistema sin intervenir en él. Puede ser la simple manipulación física o tomar medidas, por ejemplo.</li>
@@ -84,6 +82,13 @@
 <li>Análisis: es la verificación del producto o sistema utilizando modelos, cálculos y equipos de pruebas especializados. Esta etapa permite que se puedan hacer predicciones sobre el desempeño o performance típicos del producto o software basados en resultados confirmados de las pruebas. También se pueden combinar estos resultados para ofrecer mayor información sobre el producto para poder estimar los rangos límites de performance.</li>
 <p>Software: completar una serie de pruebas en las que un número predeterminado de usuarios ingresan las características del automóvil que están intentando cotizar e inician la función “obtener precio” al mismo tiempo. Se mide el tiempo de respuesta para corroborar que la función devuelve un precio dentro de los límites de tiempo preestablecidos. Se analiza la relación entre el incremento de usuarios en el sistema y el tiempo que le toma a la función devolver el precio. Se documentan los resultados y el tiempo de cada prueba para ver si se degrada la performance a medida que el sistema recibe mayor carga para detectar cuándo es el momento en el que el sistema deja de cumplir con las expectativas definidas en los requerimientos.</p>
 </ul>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_4.png" alt="resumen_4">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_5.png" alt="resumen_5">
+</p>
 
 <h2 id="enlace-4">Importancia del testing</h2>
 <p>El testing es esencial en el desarrollo de software porque ayuda a detectar y corregir errores antes de que el producto final llegue al usuario. Esto no solo mejora la calidad del software, sino que también reduce el costo y el tiempo de desarrollo.</p>
