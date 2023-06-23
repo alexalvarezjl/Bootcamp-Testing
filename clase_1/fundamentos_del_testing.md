@@ -105,6 +105,10 @@
 </ul>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_6.png" alt="resumen_6">
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/costo_errores_testing.png" alt="Costo de los errores">
 </p>
 
@@ -129,6 +133,10 @@
 Recuerda que para lograr un software de calidad, es esencial realizar pruebas exhaustivas durante el ciclo de vida de producción y mantener un enfoque constante en la satisfacción de los requisitos del cliente.</p>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_7.png" alt="resumen_7">
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/ciclo_de_vida_software.png" alt="Testing en el ciclo de vida del software">
 </p>
 
@@ -146,6 +154,10 @@ Recuerda que para lograr un software de calidad, es esencial realizar pruebas ex
 <li>Iteraciones y retroalimentación temprana: Al realizar pruebas tempranas, se obtiene información valiosa y retroalimentación sobre el software en las primeras etapas. Esto facilita la iteración y el ajuste temprano del diseño y la funcionalidad del software, lo que contribuye a su mejora y adaptación a los requisitos del usuario.</li>
 </ul>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_8.png" alt="resumen_8">
+</p>
+
 <h2 id="enlace-6">Principios del testing</h2>
 <p>Los principios fundamentales del testing incluyen la exhaustividad, la reproducibilidad, la objetividad y la independencia. Estos principios ayudan a garantizar que el testing sea riguroso y confiable.</p>
 
@@ -162,12 +174,20 @@ Cada tipo de testing se enfoca en diferentes aspectos del software y es apropiad
 <li>Pruebas de seguridad: Se centran en identificar posibles vulnerabilidades y riesgos de seguridad en el software, asegurando la protección de los datos y la privacidad del usuario.</li>
 </ol>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_9.png" alt="resumen_9">
+</p>
+
 <p>Es importante hacer pruebas exhaustivas para garantizar que el software sea de alta calidad y cumpla con los requisitos del usuario final. El testing también puede ayudar a identificar áreas de mejora en el software y guiar el desarrollo futuro.
 </p>
 <h2 id="enlace-7">Actividades y Roles dentro del testing</h2>
 <p>El rol del tester es fundamental en el proceso de desarrollo de software, ya que es responsable de planificar, diseñar y ejecutar las pruebas necesarias para asegurar la calidad del producto final. El tester también debe trabajar estrechamente con otros miembros del equipo de desarrollo para identificar y corregir errores y problemas en el software.</p>
 <p>Un QA (Quality Assurance) es responsable de garantizar que el software cumpla con los requisitos del usuario final y funcione correctamente en diferentes entornos. Los roles de un QA pueden incluir la planificación y ejecución de pruebas, la identificación y reporte de errores y defectos, y la colaboración con otros miembros del equipo de desarrollo de software.</p>
 <p>Para ser un buen QA, se requieren habilidades como la atención al detalle, la capacidad de análisis y resolución de problemas, y la comunicación efectiva. El trabajo de un QA es vital para mejorar la calidad del software y garantizar la satisfacción del usuario final.</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_10.png" alt="resumen_10">
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/lider_analista_funciones.png" alt="Roles">
@@ -192,6 +212,10 @@ Cada tipo de testing se enfoca en diferentes aspectos del software y es apropiad
 
 <li>Factores de costo-beneficio: Dependiendo de la gravedad y el impacto de los errores identificados, puede haber un análisis de costo-beneficio que indique que los beneficios de lanzar el software superan los costos y riesgos asociados con los errores. Esto podría ser especialmente relevante si los errores no afectan críticamente la funcionalidad principal del software.</li>
 </ol>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_11.png" alt="resumen_11">
+</p>
 
 <h4>Actividad; ¿cuánto testing es necesario?</h4>
 <h5>Responda V ó F donde V es verdadero y F</h5>
