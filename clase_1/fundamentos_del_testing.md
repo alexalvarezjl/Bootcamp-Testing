@@ -56,7 +56,9 @@
 <h5>Verificación; ¿Estamos haciendo el producto correctamente?</h5>
 <h5>Validación; ¿Estamos haciendo el producto correcto?</h5>
 
-<p>En resumen, la verificación se enfoca en determinar si el software se ha construido correctamente, mientras que la validación se concentra en asegurarse de que el software sea adecuado y cumpla con las necesidades del usuario final.En resumen, la verificación se enfoca en determinar si el software se ha construido correctamente, mientras que la validación se concentra en asegurarse de que el software sea adecuado y cumpla con las necesidades del usuario final.</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_4.png" alt="resumen_4">
+</p>
 
 <h4>¿En qué etapas se evalúa la Verificación y Validación?</h4>
 <ul>
@@ -83,9 +85,7 @@
 <p>Software: completar una serie de pruebas en las que un número predeterminado de usuarios ingresan las características del automóvil que están intentando cotizar e inician la función “obtener precio” al mismo tiempo. Se mide el tiempo de respuesta para corroborar que la función devuelve un precio dentro de los límites de tiempo preestablecidos. Se analiza la relación entre el incremento de usuarios en el sistema y el tiempo que le toma a la función devolver el precio. Se documentan los resultados y el tiempo de cada prueba para ver si se degrada la performance a medida que el sistema recibe mayor carga para detectar cuándo es el momento en el que el sistema deja de cumplir con las expectativas definidas en los requerimientos.</p>
 </ul>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_4.png" alt="resumen_4">
-</p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_5.png" alt="resumen_5">
 </p>
