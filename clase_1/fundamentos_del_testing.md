@@ -162,8 +162,6 @@ Recuerda que para lograr un software de calidad, es esencial realizar pruebas ex
 <p>Los principios fundamentales del testing incluyen la exhaustividad, la reproducibilidad, la objetividad y la independencia. Estos principios ayudan a garantizar que el testing sea riguroso y confiable.</p>
 
 <h3>Tipos de testing</h3>
-<p>Existen diferentes tipos de testing que se pueden hacer en un proyecto de software, incluyendo pruebas unitarias, pruebas de integración, pruebas funcionales y pruebas de aceptación. 
-Cada tipo de testing se enfoca en diferentes aspectos del software y es apropiado en diferentes etapas del ciclo de vida del software.</p>
 
 <ol>
 <li>Pruebas de unidad: Son pruebas que se centran en probar unidades individuales de código, como funciones o módulos, de manera aislada para verificar que funcionen correctamente.</li>
@@ -178,8 +176,6 @@ Cada tipo de testing se enfoca en diferentes aspectos del software y es apropiad
   <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_9.png" alt="resumen_9">
 </p>
 
-<p>Es importante hacer pruebas exhaustivas para garantizar que el software sea de alta calidad y cumpla con los requisitos del usuario final. El testing también puede ayudar a identificar áreas de mejora en el software y guiar el desarrollo futuro.
-</p>
 <h2 id="enlace-7">Actividades y Roles dentro del testing</h2>
 <p>El rol del tester es fundamental en el proceso de desarrollo de software, ya que es responsable de planificar, diseñar y ejecutar las pruebas necesarias para asegurar la calidad del producto final. El tester también debe trabajar estrechamente con otros miembros del equipo de desarrollo para identificar y corregir errores y problemas en el software.</p>
 <p>Un QA (Quality Assurance) es responsable de garantizar que el software cumpla con los requisitos del usuario final y funcione correctamente en diferentes entornos. Los roles de un QA pueden incluir la planificación y ejecución de pruebas, la identificación y reporte de errores y defectos, y la colaboración con otros miembros del equipo de desarrollo de software.</p>
