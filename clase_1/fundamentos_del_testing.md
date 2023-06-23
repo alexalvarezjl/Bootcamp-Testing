@@ -26,6 +26,10 @@
 <li>Seguridad: El software debe proteger los datos y la privacidad de los usuarios, implementando medidas de seguridad adecuadas para prevenir vulnerabilidades y ataques.</li>
 </ul>
 
+<p align="center">
+  <img src="hhttps://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_1.png" alt="resumen_1">
+</p>
+
 <h2 id="enlace-2">Definición de Testing</h2>
 
 <p>El testing es el proceso de evaluar un sistema o componente para detectar defectos y verificar que cumpla con los requisitos especificados. El objetivo del testing es mejorar la calidad del software y reducir el riesgo de errores y fallos en producción.</p>
@@ -37,6 +41,11 @@
 <li>Obtener confianza de calidad y proveer información</li>
 <li>Prevenir defectos</li>
 </ul>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_2.png" alt="resumen_2">
+</p>
+
 
 <h2 id="enlace-3">Validación y Verificación</h2>
 <p><h4>Verificación:</h4> Es el proceso de evaluar si un sistema o componente de software cumple con las especificaciones y los requisitos establecidos. La verificación se enfoca en revisar y examinar el software para asegurarse de que se haya construido correctamente. Se verifica que el software se ajuste a los estándares, las directrices de codificación y las especificaciones técnicas.</p>
