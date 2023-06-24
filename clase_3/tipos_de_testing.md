@@ -1,6 +1,6 @@
 # Tipos de Pruebas
 
-## [Tipo de Pruebas Funcionales](#tipo-de-pruebas-funcionales)
+## <a href="tipo-de-pruebas-funcionales"></a>Tipo de Pruebas Funcionales
 
 
 
@@ -43,4 +43,4 @@ En una aplicación móvil de redes sociales, se realiza una prueba funcional bas
 
 
 
-## [Tipo de Pruebas Funcionales](#tipo-de-pruebas-funcionales)
+## <a id="tipo-de-pruebas-funcionales"></a>Tipo de Pruebas Funcionales
