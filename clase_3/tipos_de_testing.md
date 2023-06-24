@@ -1,7 +1,20 @@
-## [Tipo de Pruebas Funcionales](#tipo-de-pruebas-funcionales)
+<h1>Tipos de Pruebas</h1>
+<ol>
+<li><a href="#enlace-1">Pruebas Funcionales</a></li>
+<li><a href="#enlace-2">Pruebas No Funcionales</a></li>
+</ol>
 
+<h1 id="enlace-1">Pruebas Funcionales</h1>
 
-### Pruebas Funcionales Basadas en Funciones de Negocio
+Se basan en un análisis de las especifiaciones de la funcionalidad de un componente o sistema. Estas son:
+- Funciones de Negocios
+- Interfaces de Usuarios
+
+A su vez, estas pruebas se pueden encarar desde 2 perspectivas:
+- Basadas en Requerimientos
+- Basasdas en Procesos de Negocios
+
+## Pruebas Funcionales Basadas en Funciones de Negocio
 
 Las pruebas funcionales basadas en funciones de negocio se centran en verificar que las funciones y características del software cumplan con los requisitos y especificaciones definidos para el negocio. Estas pruebas se realizan en todos los niveles del proceso de testing y tienen como objetivo principal evaluar la funcionalidad del sistema desde la perspectiva de su uso en el contexto empresarial.
 
@@ -19,7 +32,7 @@ En un sistema de gestión de pedidos en línea, se realiza una prueba funcional 
 - El importe del pago se calcula correctamente, incluyendo impuestos y descuentos.
 - Se generan notificaciones y confirmaciones de pago para el cliente y el vendedor.
 
-### Pruebas Funcionales Basadas en Interfaces de Usuario
+## Pruebas Funcionales Basadas en Interfaces de Usuario
 
 Las pruebas funcionales basadas en interfaces de usuario se enfocan en verificar que las interfaces de usuario cumplan con los requisitos especificados. Estas pruebas evalúan cómo interactúa un usuario con el sistema y se centran en garantizar que todas las funciones de la interfaz sean intuitivas, eficientes y cumplan con las expectativas del usuario.
 
@@ -38,6 +51,4 @@ En una aplicación móvil de redes sociales, se realiza una prueba funcional bas
 - Se pueden adjuntar imágenes o enlaces a los mensajes.
 - Los mensajes publicados se pueden editar o eliminar según los permisos establecidos.
 
-
-
-## Tipo de Pruebas Funcionales(#tipo-de-pruebas-funcionales)
+<h1 id="enlace-2">Pruebas No Funcionales</h1>
