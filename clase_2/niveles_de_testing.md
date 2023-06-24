@@ -17,6 +17,14 @@
 
 <p>En la práctica, este modelo puede tener más o menos niveles dependiendo del proyecto y el producto que se esta desarrollando. Se creó como respuesta a los distintos problemas que ocurrían en el desarrollo en cascada (Waterfall Model). El Modelo V, propone realizar testing desde el comienzo del proyecto, realizando Testing Estático en cada una de las fases de desarrollo, preparando las pruebas para esos niveles y luego ejecutando las mismas en forma ascendente se tiene siempre un control sobre cada una de las etapas.</p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/modelo_v_kolektor.png" alt="modelo en V kolektor">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/v-model-development.png" alt="modelo en V josepablosarco.wordpress.com">
+</p>
+
 <h2 id="enlace-2">¿Qué es calidad?</h2>
 
 <h2 id="enlace-3">¿Qué es calidad?</h2>
