@@ -27,7 +27,7 @@
 </ul>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_1.png" alt="resumen_1">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/resumen_1.png" alt="resumen_1">
 </p>
 
 <h2 id="enlace-2">Definición de Testing</h2>
@@ -43,7 +43,7 @@
 </ul>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_2.png" alt="resumen_2">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/resumen_2.png" alt="resumen_2">
 </p>
 
 
@@ -57,7 +57,7 @@
 <h5>Validación; ¿Estamos haciendo el producto correcto?</h5>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_4.png" alt="resumen_4">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/resumen_4.png" alt="resumen_4">
 </p>
 
 <h4>¿En qué etapas se evalúa la Verificación y Validación?</h4>
@@ -70,7 +70,7 @@
 </ul>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/verificacion_validacion.png" alt="verificacion y validacion">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/verificacion_validacion.png" alt="verificacion y validacion">
 </p>
 
 <h3>¿Un ejemplo? Claro que sí</h3>
@@ -87,7 +87,7 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_5.png" alt="resumen_5">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/resumen_5.png" alt="resumen_5">
 </p>
 
 <h2 id="enlace-4">Importancia del testing</h2>
@@ -105,15 +105,15 @@
 </ul>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_6.png" alt="resumen_6">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/resumen_6.png" alt="resumen_6">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/costo_errores_testing.png" alt="Costo de los errores">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/costo_errores_testing.png" alt="Costo de los errores">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/objetivos_del_testing.png" alt="Objetivos del testing">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/objetivos_del_testing.png" alt="Objetivos del testing">
 </p>
 
 <h2 id="enlace-5">Testing en el ciclo de vida del desarrollo del software</h2>
@@ -133,11 +133,11 @@
 Recuerda que para lograr un software de calidad, es esencial realizar pruebas exhaustivas durante el ciclo de vida de producción y mantener un enfoque constante en la satisfacción de los requisitos del cliente.</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_7.png" alt="resumen_7">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/resumen_7.png" alt="resumen_7">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/ciclo_de_vida_software.png" alt="Testing en el ciclo de vida del software">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/ciclo_de_vida_software.png" alt="Testing en el ciclo de vida del software">
 </p>
 
 <p>El testing se realiza en diferentes etapas del ciclo de vida de desarrollo de software, desde la planificación hasta la implementación y mantenimiento. En cada etapa, se realizan pruebas específicas para evaluar la funcionalidad, el rendimiento y otros aspectos del software.</p>
@@ -155,7 +155,7 @@ Recuerda que para lograr un software de calidad, es esencial realizar pruebas ex
 </ul>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_8.png" alt="resumen_8">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/resumen_8.png" alt="resumen_8">
 </p>
 
 <h2 id="enlace-6">Principios del testing</h2>
@@ -173,7 +173,7 @@ Recuerda que para lograr un software de calidad, es esencial realizar pruebas ex
 </ol>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_9.png" alt="resumen_9">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/resumen_9.png" alt="resumen_9">
 </p>
 
 <h2 id="enlace-7">Actividades y Roles dentro del testing</h2>
@@ -182,11 +182,11 @@ Recuerda que para lograr un software de calidad, es esencial realizar pruebas ex
 <p>Para ser un buen QA, se requieren habilidades como la atención al detalle, la capacidad de análisis y resolución de problemas, y la comunicación efectiva. El trabajo de un QA es vital para mejorar la calidad del software y garantizar la satisfacción del usuario final.</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_10.png" alt="resumen_10">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/resumen_10.png" alt="resumen_10">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/lider_analista_funciones.png" alt="Roles">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/lider_analista_funciones.png" alt="Roles">
 </p>
 
 <h3>¿Cuál es el margen de aceptación para que un software salga a producción?</h3>
@@ -210,7 +210,7 @@ Recuerda que para lograr un software de calidad, es esencial realizar pruebas ex
 </ol>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/archivos/resumen_11.png" alt="resumen_11">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/resumen_11.png" alt="resumen_11">
 </p>
 
 <h4>Actividad; ¿cuánto testing es necesario?</h4>
