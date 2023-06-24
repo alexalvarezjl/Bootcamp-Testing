@@ -40,4 +40,4 @@ En una aplicación móvil de redes sociales, se realiza una prueba funcional bas
 
 
 
-## <a name="tipo-de-pruebas-funcionales"></a>Tipo de Pruebas Funcionales
+## Tipo de Pruebas Funcionales
