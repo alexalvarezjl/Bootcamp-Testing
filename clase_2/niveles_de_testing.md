@@ -33,7 +33,7 @@
 <li>También es el caso de las revisiones de documentos comenzando por los conceptos, especificaion y el diseño global (en conjunto).</li>
 </ul>
 
-[Información obtenida en:](URL "https://josepablosarco.wordpress.com/2012/03/24/istqb-cap-2-testing-a-traves-del-ciclo-de-vida-del-software-i/")
+<a href="https://josepablosarco.wordpress.com/2012/03/24/istqb-cap-2-testing-a-traves-del-ciclo-de-vida-del-software-i/">Fuente</a>
 
 <h2 id="enlace-2">Niveles de pruebas</h2>
 
