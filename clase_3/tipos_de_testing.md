@@ -2,7 +2,7 @@
 
 ## [Tipo de Pruebas Funcionales](#tipo-de-pruebas-funcionales)
 
-## <a name="tipo-de-pruebas-funcionales"></a>Tipo de Pruebas Funcionales
+
 
 ### Pruebas Funcionales Basadas en Funciones de Negocio
 
@@ -40,3 +40,7 @@ En una aplicación móvil de redes sociales, se realiza una prueba funcional bas
 - Los mensajes publicados se muestran en el feed de noticias de los seguidores del usuario.
 - Se pueden adjuntar imágenes o enlaces a los mensajes.
 - Los mensajes publicados se pueden editar o eliminar según los permisos establecidos.
+
+
+
+## Tipo de Pruebas Funcionales
