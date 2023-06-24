@@ -37,9 +37,9 @@
 
 <h2 id="enlace-2">Niveles de pruebas</h2>
 
-# Resumen: Testing de Componentes
+# Prueba de Componentes
 
-El testing de componentes, también conocido como pruebas de desarrollador (developer's test), consiste en probar cada componente individualmente después de su construcción. Este tipo de pruebas se realiza en función de las convenciones de nombres específicas de cada lenguaje de programación utilizado.
+Las pruebas de componentes, también conocidas como pruebas de desarrollador (developer's test), consiste en probar cada componente individualmente después de su construcción. Este tipo de pruebas se realiza en función de las convenciones de nombres específicas de cada lenguaje de programación utilizado.
 
 ## Alcance
 
@@ -55,6 +55,24 @@ El testing de componentes, también conocido como pruebas de desarrollador (deve
 - Los errores suelen corregirse de inmediato una vez que se encuentran, sin un registro oficial de incidentes.
 - Un enfoque común para el testing de componentes es el desarrollo basado en pruebas (TDD), que consiste en preparar y automatizar casos de prueba antes de codificar.
 - El TDD implica ciclos repetitivos de desarrollo de casos de prueba, construcción e integración de pequeñas secciones de código y ejecución de pruebas de componentes hasta que se superen.
+
+# Pruebas de Integración
+
+Las pruebas de integración tienen como objetivo verificar las interfaces entre componentes y las interacciones entre las diferentes partes de un sistema, como el sistema operativo, sistema de archivos, hardware o interfaces con otros sistemas.
+
+Puntos clave:
+- Puede haber varios niveles de pruebas de integración y se pueden llevar a cabo en objetos de prueba de diferentes tamaños.
+- Las pruebas de integración de componentes verifican las interacciones entre los componentes del software y se realizan después de las pruebas de componentes.
+- A medida que aumenta el alcance de la integración, se vuelve más difícil aislar las fallas en elementos o sistemas específicos, lo que puede aumentar el riesgo.
+- Las estrategias de integración pueden basarse en la arquitectura del sistema (por ejemplo, de arriba hacia abajo o de abajo hacia arriba), tareas funcionales, secuencias de procesamiento de transacciones u otros aspectos del sistema o componente.
+- Para reducir el riesgo de encontrar errores demasiado tarde, la integración se realiza de forma incremental.
+
+## Alcance
+
+- Se prueban grupos de componentes.
+- Puede implementarse a nivel de subsistemas si se tienen grupos de componentes relacionados.
+- Las pruebas de integración verifican la interacción entre componentes con respecto a las especificaciones de interfaces.
+
 
 
 <h2 id="enlace-3">¿Qué es calidad?</h2>
