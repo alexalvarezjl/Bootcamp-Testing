@@ -104,6 +104,27 @@ Las pruebas de aceptación no se limitan a un solo nivel, pueden realizarse en d
 
 El objetivo de las pruebas de aceptación es verificar que el software satisfaga los requisitos del cliente.
 
+# Tipos de Pruebas según Objetivos
+
+## Testing Funcional
+
+El testing funcional se basa en las funciones y características del sistema, descritas en documentos o entendidas por los testers. Estas pruebas evalúan la interoperabilidad del sistema con sistemas específicos y pueden llevarse a cabo en todos los niveles del testing. Por ejemplo, las pruebas de unidad pueden estar basadas en la especificación de componentes.
+
+Objetivo: Evaluar la funcionalidad del objeto de prueba.
+
+## Testing No Funcional
+
+El testing no funcional se centra en "cómo" funciona el sistema. Incluye, pero no se limita a, pruebas de rendimiento, pruebas de carga, pruebas de estrés, pruebas de usabilidad, pruebas de mantenimiento, pruebas de fiabilidad y pruebas de portabilidad. Estas pruebas se pueden realizar en todos los niveles del testing. El término "no funcional" describe las pruebas necesarias para medir las características del sistema o software que se pueden cuantificar en una escala variable, como los tiempos de respuesta en las pruebas de rendimiento.
+
+Objetivo: Medir las características del sistema que se pueden cuantificar en una escala variable.
+
+## Testing Estructural
+
+El testing estructural se puede realizar en todos los niveles del testing. Se utilizan técnicas estructuradas después de las técnicas basadas en especificaciones para evaluar el rigor de las pruebas mediante la cobertura de una estructura. La cobertura es la medida en que una estructura ha sido probada, expresada como un porcentaje de los puntos cubiertos. Si la cobertura es del 100%, se pueden diseñar más pruebas para cubrir los elementos faltantes y aumentar así la cobertura.
+
+Objetivo: Medir el grado en que la estructura del objeto de prueba ha sido cubierta por los casos de prueba.
+
+
 <h2 id="enlace-3">¿Qué es calidad?</h2>
 
 <h2 id="enlace-4">¿Qué es calidad?</h2>
