@@ -37,6 +37,26 @@
 
 <h2 id="enlace-2">Niveles de pruebas</h2>
 
+# Resumen: Testing de Componentes
+
+El testing de componentes, también conocido como pruebas de desarrollador (developer's test), consiste en probar cada componente individualmente después de su construcción. Este tipo de pruebas se realiza en función de las convenciones de nombres específicas de cada lenguaje de programación utilizado.
+
+## Alcance
+
+- Se prueban componentes individuales de forma independiente.
+- Los casos de prueba se derivan de especificaciones de componentes, diseños de software o modelos de datos.
+- Se busca encontrar defectos y verificar el funcionamiento de los componentes (módulos, programas, objetos, clases, etc.) que pueden ser evaluados por separado.
+- Puede incluir pruebas de elementos funcionales y no funcionales, como recursos del sistema y pruebas estructurales.
+
+## Proceso y enfoque
+
+- El testing de componentes se realiza con acceso al código bajo prueba y con el soporte de herramientas de desarrollo, como frameworks de pruebas unitarias o herramientas de depuración.
+- En la práctica, generalmente implica al programador que escribió el código.
+- Los errores suelen corregirse de inmediato una vez que se encuentran, sin un registro oficial de incidentes.
+- Un enfoque común para el testing de componentes es el desarrollo basado en pruebas (TDD), que consiste en preparar y automatizar casos de prueba antes de codificar.
+- El TDD implica ciclos repetitivos de desarrollo de casos de prueba, construcción e integración de pequeñas secciones de código y ejecución de pruebas de componentes hasta que se superen.
+
+
 <h2 id="enlace-3">¿Qué es calidad?</h2>
 
 <h2 id="enlace-4">¿Qué es calidad?</h2>
