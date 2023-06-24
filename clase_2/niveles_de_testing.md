@@ -73,7 +73,36 @@ Puntos clave:
 - Puede implementarse a nivel de subsistemas si se tienen grupos de componentes relacionados.
 - Las pruebas de integración verifican la interacción entre componentes con respecto a las especificaciones de interfaces.
 
+# Pruebas de Sistema
 
+Las pruebas de sistema se enfocan en la calidad del software desde la perspectiva del usuario. El entorno de prueba debe ser lo más similar posible al entorno de producción para minimizar el riesgo de incidentes que puedan surgir debido a diferencias ambientales no identificadas durante las pruebas. Este tipo de pruebas puede incluir pruebas basadas en riesgos y/o especificaciones de requisitos, procesos de negocio, casos de uso u otras descripciones de alto nivel del comportamiento del sistema y sus interacciones con el sistema operativo y los recursos del sistema.
+
+Puntos clave:
+- El testing de sistema investiga tanto los requisitos funcionales como los no funcionales del sistema.
+- Estos requisitos pueden estar documentados en forma de texto y/o modelos.
+
+## Alcance
+
+Las pruebas de sistema abarcan los siguientes aspectos:
+
+1. Adecuación (Suitability): ¿Las funciones implementadas son adecuadas para su uso previsto?
+2. Exactitud (Accuracy): ¿Las funciones producen los resultados correctos según lo acordado?
+3. Interoperabilidad (Interoperability): ¿Las interacciones con el entorno del sistema presentan algún problema?
+4. Cumplimiento de Funcionalidad (Compliance): ¿El sistema cumple con las normas y regulaciones aplicables?
+5. Seguridad (Security): ¿Los datos y programas están protegidos contra acceso no autorizado o pérdida?
+
+# Pruebas de Aceptación
+
+Las pruebas de aceptación es frecuentemente responsabilidad de los clientes y/o usuarios de un sistema, aunque otras partes interesadas también pueden participar. El objetivo de las pruebas de aceptación es establecer confianza en el sistema, sus componentes o características específicas, tanto funcionales como no funcionales. Encontrar defectos no es el enfoque principal en las pruebas de aceptación. Estas pruebas pueden evaluar la preparación del sistema para su uso, aunque no siempre representan el nivel final de pruebas. Por ejemplo, una prueba de integración a gran escala puede seguir a las pruebas de aceptación de un sistema.
+
+Las pruebas de aceptación no se limitan a un solo nivel, pueden realizarse en diferentes momentos, como:
+- Pruebas de aceptación al momento de la instalación o integración de un producto de software.
+- Pruebas de aceptación de usabilidad durante las pruebas de componentes.
+- Pruebas de aceptación de una nueva mejora funcional antes de las pruebas del sistema.
+
+## Alcance
+
+El objetivo de las pruebas de aceptación es verificar que el software satisfaga los requisitos del cliente.
 
 <h2 id="enlace-3">¿Qué es calidad?</h2>
 
