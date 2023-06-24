@@ -21,10 +21,17 @@
   <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/modelo_v_kolektor.png" alt="modelo en V kolektor">
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/v-model-development.png" alt="modelo en V josepablosarco.wordpress.com">
-</p>
-
+<h3>Principios en el módelo V</h3>
+<ul>
+<li>Cada actividad de desarrollo debe ser probada</li>
+<li>Ninguna porción del software puede quedar sin ser probada, si ha sido desarrollada tanto de forma (una unica fase) o iterativa</li>
+<li>Cada nivel de prueba debería ser probado de forma especifica</li>
+<li>Cada nivel de pruebas cuenta con sus objetivos de prueba propios</li>
+<li>Las pruebas llevadas a cabo en cada nivel deben reflejar estos objetivos</li>
+<li>El proceso de pruebas comienza con mucha antelación a la ejecucion de pruebas</li>
+<li>Tan pronto como el desarrollo comienza puede comenzar la preparación de las pruebas correspondientes</li>
+<li>También es el caso de las revisiones de documentos comenzando por los conceptos, especificaion y el diseño global (en conjunto).</li>
+</ul>
 <h2 id="enlace-2">¿Qué es calidad?</h2>
 
 <h2 id="enlace-3">¿Qué es calidad?</h2>
