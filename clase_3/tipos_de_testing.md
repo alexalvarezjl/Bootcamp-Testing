@@ -2,7 +2,7 @@
 
 ## [Tipo de Pruebas Funcionales](#tipo-de-pruebas-funcionales)
 
-## Tipo de Pruebas Funcionales
+## <a name="tipo-de-pruebas-funcionales"></a>Tipo de Pruebas Funcionales
 
 ### Pruebas Funcionales Basadas en Funciones de Negocio
 
