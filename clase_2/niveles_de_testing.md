@@ -10,7 +10,7 @@
 </ol>
 
 
-<h2 id="enlace-1">Testing a través del ciclo de vida del software</h2>
+<h1 id="enlace-1">Testing a través del ciclo de vida del software</h1>
 
 <h3>Modelo V</h3>
 <p>Es el modelo de desarrollo de software más utilizado, donde el desarrollo y el testing son dos ramas que apuntan a los mismos niveles, ya que para cada nivel de desarrollo existe su correspondiente nivel de Testing.</p>
@@ -21,7 +21,7 @@
   <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/modelo_v_kolektor.png" alt="modelo en V kolektor">
 </p>
 
-<h3>Principios en el módelo V</h3>
+<h2>Principios en el módelo V</h2>
 <ul>
 <li>Cada actividad de desarrollo debe ser probada</li>
 <li>Ninguna porción del software puede quedar sin ser probada, si ha sido desarrollada tanto de forma (una unica fase) o iterativa</li>
@@ -35,7 +35,7 @@
 
 <a href="https://josepablosarco.wordpress.com/2012/03/24/istqb-cap-2-testing-a-traves-del-ciclo-de-vida-del-software-i/">Fuente</a>
 
-<h2 id="enlace-2">Niveles de pruebas</h2>
+<h1 id="enlace-2">Niveles de pruebas</h1>
 
 # Prueba de Componentes
 
