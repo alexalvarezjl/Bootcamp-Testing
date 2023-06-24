@@ -2,11 +2,6 @@
 <ol>
 <li><a href="#enlace-1">Testing a través del ciclo de vida del software</a></li>
 <li><a href="#enlace-2">Niveles de pruebas</a></li>
-<li><a href="#enlace-3"></a></li>
-<li><a href="#enlace-4"></a></li>
-<li><a href="#enlace-5"></a></li>
-<li><a href="#enlace-6"></a></li>
-<li><a href="#enlace-7"></a></li>
 </ol>
 
 
@@ -125,12 +120,49 @@ El testing estructural se puede realizar en todos los niveles del testing. Se ut
 Objetivo: Medir el grado en que la estructura del objeto de prueba ha sido cubierta por los casos de prueba.
 
 
-<h2 id="enlace-3">¿Qué es calidad?</h2>
+# Ejemplos de pruebas
 
-<h2 id="enlace-4">¿Qué es calidad?</h2>
+## Pruebas de Testing de Componentes
 
-<h2 id="enlace-5">¿Qué es calidad?</h2>
+- Prueba de Módulo en C:
+  - Objetivo: Verificar el funcionamiento correcto de un módulo en el lenguaje de programación C.
+  - Casos de prueba:
+    - Caso 1: Verificar que la función de cálculo de suma devuelve el resultado esperado.
+    - Caso 2: Validar que el módulo maneja adecuadamente los errores de entrada.
 
-<h2 id="enlace-6">¿Qué es calidad?</h2>
+- Prueba de Clase en Java o C++:
+  - Objetivo: Evaluar el comportamiento de una clase en los lenguajes de programación Java o C++.
+  - Casos de prueba:
+    - Caso 1: Verificar que los métodos de la clase devuelven los resultados correctos.
+    - Caso 2: Comprobar que la clase maneja correctamente las excepciones esperadas.
 
-<h2 id="enlace-7">¿Qué es calidad?</h2>
+- Pruebas de Unidad en Pascal:
+  - Objetivo: Validar la funcionalidad individual de unidades en el lenguaje de programación Pascal.
+  - Casos de prueba:
+    - Caso 1: Verificar que la función de ordenación ordena correctamente los elementos de una lista.
+    - Caso 2: Comprobar que el procedimiento de búsqueda devuelve el índice correcto para un elemento dado.
+
+## Pruebas de Testing de Integración
+
+- Pruebas de Integración de Componentes:
+  - Objetivo: Verificar las interacciones entre los componentes del software.
+  - Casos de prueba:
+    - Caso 1: Evaluar la comunicación correcta entre un componente de interfaz de usuario y un componente de lógica de negocio.
+    - Caso 2: Comprobar que los componentes de acceso a datos interactúan adecuadamente con el sistema de gestión de base de datos.
+
+## Pruebas de Testing de Sistema
+
+- Pruebas de Rendimiento:
+  - Objetivo: Evaluar el rendimiento del sistema bajo condiciones específicas de carga y estrés.
+  - Casos de prueba:
+    - Caso 1: Medir el tiempo de respuesta del sistema al procesar una gran cantidad de solicitudes simultáneas.
+    - Caso 2: Verificar que el sistema puede manejar la carga máxima especificada sin degradación significativa del rendimiento.
+
+## Pruebas de Testing de Aceptación
+
+- Pruebas de Aceptación de Usabilidad:
+  - Objetivo: Evaluar la usabilidad y facilidad de uso del sistema desde la perspectiva del usuario final.
+  - Casos de prueba:
+    - Caso 1: Evaluar la facilidad de navegación y la intuición de la interfaz de usuario.
+    - Caso 2: Comprobar que las acciones comunes realizadas por el usuario se pueden llevar a cabo de manera sencilla y eficiente.
+
