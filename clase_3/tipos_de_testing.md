@@ -63,7 +63,7 @@ Donde los atributos de un componente o sistema pueden no estar relacionados a la
 - Test de Instalación o Portabilidad
 - Test de Usabilidad
 
-## Pruebas de Rendimiento
+## Test de Performance
 
 Las pruebas de rendimiento son pruebas realizadas para evaluar el rendimiento y la capacidad de respuesta de una aplicación, sistema o componente bajo diferentes cargas y condiciones. Estas pruebas tienen como objetivo medir y mejorar la eficiencia y el rendimiento del sistema. A continuación se detallan los aspectos clave de las pruebas de rendimiento:
 
