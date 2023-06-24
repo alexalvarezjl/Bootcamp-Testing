@@ -166,3 +166,6 @@ Objetivo: Medir el grado en que la estructura del objeto de prueba ha sido cubie
     - Caso 1: Evaluar la facilidad de navegación y la intuición de la interfaz de usuario.
     - Caso 2: Comprobar que las acciones comunes realizadas por el usuario se pueden llevar a cabo de manera sencilla y eficiente.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing-Kolektor/main/assets/niveles_de_pruebas.png" alt="tipos de pruebas">
+</p>
