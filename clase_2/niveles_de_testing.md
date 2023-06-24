@@ -1,7 +1,7 @@
 <h1>¿Qué aprenderemos hoy?</h1>
 <ol>
-<li><a href="#enlace-1">Niveles de pruebas</a></li>
-<li><a href="#enlace-2"></a></li>
+<li><a href="#enlace-1">Testing a través del ciclo de vida del software</a></li>
+<li><a href="#enlace-2">Niveles de pruebas</a></li>
 <li><a href="#enlace-3"></a></li>
 <li><a href="#enlace-4"></a></li>
 <li><a href="#enlace-5"></a></li>
@@ -10,7 +10,7 @@
 </ol>
 
 
-<h2 id="enlace-1">Niveles de pruebas</h2>
+<h2 id="enlace-1">Testing a través del ciclo de vida del software</h2>
 
 <h3>Modelo V</h3>
 <p>Es el modelo de desarrollo de software más utilizado, donde el desarrollo y el testing son dos ramas que apuntan a los mismos niveles, ya que para cada nivel de desarrollo existe su correspondiente nivel de Testing.</p>
@@ -32,7 +32,10 @@
 <li>Tan pronto como el desarrollo comienza puede comenzar la preparación de las pruebas correspondientes</li>
 <li>También es el caso de las revisiones de documentos comenzando por los conceptos, especificaion y el diseño global (en conjunto).</li>
 </ul>
-<h2 id="enlace-2">¿Qué es calidad?</h2>
+
+[Información obtenida en:](URL "https://josepablosarco.wordpress.com/2012/03/24/istqb-cap-2-testing-a-traves-del-ciclo-de-vida-del-software-i/")
+
+<h2 id="enlace-2">Niveles de pruebas</h2>
 
 <h2 id="enlace-3">¿Qué es calidad?</h2>
 
