@@ -1,6 +1,8 @@
 # Tipos de Pruebas
 
-## Tipos de Pruebas Funcionales
+## [Tipo de Pruebas Funcionales](#tipo-de-pruebas-funcionales)
+
+## Tipo de Pruebas Funcionales
 
 ### Pruebas Funcionales Basadas en Funciones de Negocio
 
@@ -20,3 +22,21 @@ En un sistema de gestión de pedidos en línea, se realiza una prueba funcional 
 - El importe del pago se calcula correctamente, incluyendo impuestos y descuentos.
 - Se generan notificaciones y confirmaciones de pago para el cliente y el vendedor.
 
+### Pruebas Funcionales Basadas en Interfaces de Usuario
+
+Las pruebas funcionales basadas en interfaces de usuario se enfocan en verificar que las interfaces de usuario cumplan con los requisitos especificados. Estas pruebas evalúan cómo interactúa un usuario con el sistema y se centran en garantizar que todas las funciones de la interfaz sean intuitivas, eficientes y cumplan con las expectativas del usuario.
+
+**Objetivo:** Evaluar la usabilidad y funcionalidad de la interfaz de usuario desde la perspectiva de los requerimientos establecidos.
+
+**Alcance:** Estas pruebas se aplican a todas las características y funcionalidades de la interfaz de usuario que sean accesibles y visibles para el usuario final.
+
+**Limitantes:** Los limitantes pueden incluir restricciones de tiempo y recursos, así como la disponibilidad de dispositivos o navegadores específicos necesarios para probar la interfaz.
+
+**Ejemplo:**
+
+En una aplicación móvil de redes sociales, se realiza una prueba funcional basada en la interfaz de usuario para verificar que la función de publicación de mensajes cumple con los siguientes criterios:
+
+- El usuario puede redactar y publicar mensajes correctamente.
+- Los mensajes publicados se muestran en el feed de noticias de los seguidores del usuario.
+- Se pueden adjuntar imágenes o enlaces a los mensajes.
+- Los mensajes publicados se pueden editar o eliminar según los permisos establecidos.
