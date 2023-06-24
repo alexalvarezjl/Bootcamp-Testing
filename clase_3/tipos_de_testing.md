@@ -52,3 +52,35 @@ En una aplicación móvil de redes sociales, se realiza una prueba funcional bas
 - Los mensajes publicados se pueden editar o eliminar según los permisos establecidos.
 
 <h1 id="enlace-2">Pruebas No Funcionales</h1>
+
+Donde los atributos de un componente o sistema pueden no estar relacionados a la funcionalidad
+
+- Test de Performance
+- Test de Seguridad
+- Test de Estrés
+- Test de Carga o Volumen
+- Test de Configuración
+- Test de Instalación o Portabilidad
+- Test de Usabilidad
+
+## Pruebas de Rendimiento
+
+Las pruebas de rendimiento son pruebas realizadas para evaluar el rendimiento y la capacidad de respuesta de una aplicación, sistema o componente bajo diferentes cargas y condiciones. Estas pruebas tienen como objetivo medir y mejorar la eficiencia y el rendimiento del sistema. A continuación se detallan los aspectos clave de las pruebas de rendimiento:
+
+- **Objetivo**: Evaluar y validar el rendimiento de una aplicación en términos de tiempo de respuesta, velocidad, estabilidad y eficiencia bajo diversas cargas y situaciones.
+
+- **Alcance**: Las pruebas de rendimiento pueden abarcar diferentes áreas, como la velocidad de carga de páginas web, el rendimiento de transacciones en sistemas de bases de datos, la capacidad de respuesta de aplicaciones en momentos de alto tráfico, entre otros.
+
+- **Limitantes**: Las pruebas de rendimiento pueden verse limitadas por recursos técnicos, como hardware insuficiente o limitado, falta de acceso a ambientes de producción reales, restricciones de tiempo y presupuesto.
+
+- **Ejemplo**: Una prueba de rendimiento puede consistir en simular una carga de trabajo alta en un sistema de comercio electrónico para evaluar la capacidad de respuesta y estabilidad del sistema bajo una gran afluencia de usuarios concurrentes.
+
+Las pruebas de rendimiento suelen evaluar aspectos como:
+
+1. **Tiempo de respuesta:** mide el tiempo que tarda el sistema en responder a una solicitud del usuario.
+2. **Capacidad de carga:** evalúa el comportamiento del sistema bajo cargas de trabajo crecientes, para determinar su capacidad máxima y cómo responde ante dichas cargas.
+3. **Estabilidad:** verifica la estabilidad y la consistencia del sistema durante un período prolongado de tiempo y bajo diferentes condiciones.
+4. **Escalabilidad:** evalúa cómo el sistema maneja el aumento de la carga de trabajo al agregar más recursos, como usuarios concurrentes o transacciones.
+5. **Uso de recursos:** monitorea y analiza el consumo de recursos del sistema, como CPU, memoria, ancho de banda de red, para identificar posibles problemas de rendimiento relacionados con la utilización eficiente de recursos.
+
+_Las herramientas especializadas de prueba de rendimiento ayudan en la ejecución, monitorización y análisis de estas pruebas, recopilando datos relevantes y generando informes que permiten identificar problemas y tomar decisiones informadas para mejorar el rendimiento del sistema._
