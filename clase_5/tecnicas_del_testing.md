@@ -144,7 +144,7 @@ El alcance de las pruebas de caja blanca y caja negra puede variar según los ob
 - Las pruebas de caja blanca pueden ser limitadas si no se dispone del acceso al código fuente o si el conocimiento técnico es insuficiente.
 - Las pruebas de caja negra pueden no detectar problemas internos del software debido a la falta de visibilidad de la implementación.
 
-<h2 id="enlace-4">Técnicas de Caja Blanca</h2>
+<h1 id="enlace-4">Técnicas de Caja Blanca</h1>
 
 ## Pruebas de Caja Blanca
 
@@ -207,8 +207,8 @@ public void validateUserAge(int age) {
     } else {
         System.out.println("El usuario es menor de edad.");
     }
-}
-
+} 
+```
 _En este ejemplo, el cálculo de la complejidad ciclomática utilizando la fórmula CC = A - N + 2 sería: A = 4 (4 condiciones) y N = 4 (4 sentencias). Por lo tanto, CC = 4 - 4 + 2 = 2. El código se consideraría simple de mantener y probar según el rango establecido._
 
 
