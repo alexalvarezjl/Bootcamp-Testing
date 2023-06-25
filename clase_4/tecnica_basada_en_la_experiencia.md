@@ -164,4 +164,58 @@ Ejemplo de un test charter para una aplicación de comercio electrónico:
 3. Confirmar el pago y verificar la respuesta del sistema.
 4. Validar que se muestre un mensaje de confirmación de la transacción.
 
+### Ejemplo de un test charter
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing/main/assets/test_charter.png" alt="tests charters ejemplo">
+</p>
+
 <h2 id="enlace-7">Sesiones de Pruebas Exploratorias</h2>
+
+## Planificación de Sesiones de Pruebas Exploratorias
+
+Las sesiones de pruebas exploratorias son una técnica ágil y creativa para descubrir información valiosa sobre el software. La planificación de estas sesiones es crucial para maximizar su efectividad y obtener resultados significativos.
+
+### ¿Qué es una sesión de pruebas exploratorias?
+
+Una sesión de pruebas exploratorias es un período de tiempo dedicado a la ejecución de pruebas sin un guión o plan detallado previo. Se basa en el conocimiento y la experiencia del tester para descubrir defectos, explorar áreas críticas y evaluar la calidad general del software.
+
+### Planificación de la sesión
+
+La planificación de una sesión de pruebas exploratorias generalmente incluye los siguientes elementos:
+
+1. Identificación del objetivo: Definir el objetivo general de la sesión, como explorar una funcionalidad específica, probar un escenario complejo o investigar áreas de riesgo.
+
+2. Asignación de recursos: Determinar los recursos necesarios, como tiempo, personal, ambientes de prueba y datos relevantes.
+
+3. Definición del marco temporal: Establecer la duración estimada de la sesión, considerando el alcance, la complejidad y los recursos disponibles. Las sesiones de pruebas exploratorias pueden variar en duración, desde unos pocos minutos hasta varias horas.
+
+4. Selección de testers: Designar a los testers adecuados según su experiencia, conocimientos y habilidades para realizar pruebas exploratorias efectivas.
+
+5. Establecimiento de criterios de éxito: Definir los criterios o resultados esperados para evaluar el éxito de la sesión, como la cantidad de defectos encontrados, la cobertura alcanzada o la calidad percibida del software.
+
+6. Comunicación y documentación: Comunicar claramente los objetivos, alcance y recursos de la sesión a los participantes. Documentar los hallazgos, resultados y lecciones aprendidas durante la sesión.
+
+### Características de las sesiones de pruebas exploratorias
+
+- Creatividad y libertad: Los testers tienen la libertad de explorar, experimentar y probar diferentes enfoques sin restricciones rígidas.
+
+- Adaptable y ágil: Las sesiones de pruebas exploratorias pueden adaptarse sobre la marcha según los descubrimientos y los resultados obtenidos.
+
+- Enfoque en el aprendizaje: El objetivo principal es aprender sobre el software, descubrir defectos y mejorar la calidad del producto.
+
+### Ejemplo
+
+Ejemplo de planificación de una sesión de pruebas exploratorias para una aplicación móvil:
+
+**Objetivo**: Evaluar la usabilidad y detectar posibles problemas de navegación en la interfaz de usuario.
+
+**Recursos**: Dispositivo móvil compatible, acceso a una versión de la aplicación en desarrollo.
+
+**Duración estimada**: 2 horas.
+
+**Criterios de éxito**: Identificar al menos 5 problemas de navegación y proporcionar sugerencias para mejorar la experiencia del usuario.
+
+**Testers asignados**: Tester A y Tester B, ambos con experiencia en pruebas de usabilidad en aplicaciones móviles.
+
+**Comunicación y documentación**: Se establecerá un canal de comunicación para compartir hallazgos y se documentarán los problemas encontrados, las sugerencias y las recomendaciones durante la sesión.
