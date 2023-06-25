@@ -9,7 +9,7 @@
 <li><a href="#enlace-7">Sesiones de Pruebas Exploratorias</a></li>
 </ol>
 
-<h2 id="enlace-1">¿Pruebas Exploratorias - Definición</h2>
+<h1 id="enlace-1">¿Pruebas Exploratorias - Definición</h1>
 
 Las pruebas exploratorias son un enfoque de prueba ad hoc y sin guión que se basa en el conocimiento y la experiencia del tester. En lugar de seguir un plan de pruebas predeterminado, el tester explora y prueba el software de manera interactiva, descubriendo y evaluando diferentes aspectos del sistema sobre la marcha.
 
@@ -21,7 +21,7 @@ Las pruebas exploratorias son un enfoque de prueba ad hoc y sin guión que se ba
 
 **Ejemplo:** Un ejemplo de prueba exploratoria sería cuando un tester se sumerge en una aplicación móvil sin un guión de prueba específico y comienza a explorar diferentes características y funcionalidades. Durante este proceso, el tester puede interactuar con la interfaz, probar diferentes escenarios y realizar acciones no predefinidas para descubrir problemas o comportamientos inesperados en el software.
 
-<h2 id="enlace-2">¿Cuándo aplicar estas técnicas?</h2>
+<h1 id="enlace-2">¿Cuándo aplicar estas técnicas?</h1>
 
 Las pruebas exploratorias se pueden aplicar en diferentes momentos durante el desarrollo de software:
 
@@ -41,7 +41,7 @@ Las pruebas exploratorias tienen implicaciones en el desarrollo de software:
 
 - **Oportunidad de aprendizaje:** Los testers pueden adquirir conocimiento y comprensión más profundos del sistema al explorarlo, lo que puede influir en el diseño y la mejora continua del software.
 
-<h2 id="enlace-3">Ventajas y Desventajas</h2>
+<h1 id="enlace-3">Ventajas y Desventajas</h1>
 
 ## Ventajas de las pruebas exploratorias
 
@@ -60,7 +60,7 @@ Las pruebas exploratorias tienen implicaciones en el desarrollo de software:
 - Dificultad para repetir exactamente los pasos de la prueba.
 - Requieren una buena comunicación y colaboración entre los testers y los desarrolladores.
 
-<h2 id="enlace-4">Riesgos- Herramientas para mitigarlos</h2>
+<h1 id="enlace-4">Riesgos- Herramientas para mitigarlos</h1>
 
 ## Riesgos de las pruebas exploratorias
 
@@ -98,7 +98,7 @@ Las pruebas exploratorias tienen implicaciones en el desarrollo de software:
 
 10. **Formación y capacitación**: Proporcionar formación y capacitación continua a los testers sobre las técnicas de pruebas exploratorias, las habilidades requeridas y las mejores prácticas.
 
-<h2 id="enlace-5">Claves para el Éxito</h2>
+<h1 id="enlace-5">Claves para el Éxito</h1>
 
 - **Conocimiento del sistema**: Obtén un buen entendimiento del sistema y sus requisitos antes de iniciar las pruebas exploratorias. Familiarízate con las funcionalidades, flujos de trabajo y objetivos del software.
 
@@ -120,7 +120,7 @@ Las pruebas exploratorias tienen implicaciones en el desarrollo de software:
 
 - **Aprendizaje continuo**: Mantente actualizado sobre las últimas técnicas, herramientas y enfoques en pruebas exploratorias. Continúa aprendiendo y mejorando tus habilidades a través de la práctica y la participación en la comunidad de pruebas.
 
-<h2 id="enlace-6">Que son los Test Charter</h2>
+<h1 id="enlace-6">Que son los Test Charter</h1>
 
 ## Tests Charters
 
@@ -170,7 +170,7 @@ Ejemplo de un test charter para una aplicación de comercio electrónico:
   <img src="https://raw.githubusercontent.com/alexalvarezjl/Bootcamp-Testing/main/assets/test_charter.png" alt="tests charters ejemplo">
 </p>
 
-<h2 id="enlace-7">Sesiones de Pruebas Exploratorias</h2>
+<h1 id="enlace-7">Sesiones de Pruebas Exploratorias</h1>
 
 ## Planificación de Sesiones de Pruebas Exploratorias
 
