@@ -100,6 +100,68 @@ Las pruebas exploratorias tienen implicaciones en el desarrollo de software:
 
 <h2 id="enlace-5">Claves para el Éxito</h2>
 
+- **Conocimiento del sistema**: Obtén un buen entendimiento del sistema y sus requisitos antes de iniciar las pruebas exploratorias. Familiarízate con las funcionalidades, flujos de trabajo y objetivos del software.
+
+- **Flexibilidad y creatividad**: Sé flexible en tu enfoque y utiliza tu creatividad para descubrir diferentes caminos y escenarios de prueba. No te limites a las pruebas predefinidas y explora nuevas posibilidades.
+
+- **Enfoque en áreas críticas**: Prioriza las áreas críticas y de alto riesgo en el sistema para asignar tiempo y recursos adecuados. Asegúrate de centrarte en las funcionalidades clave y las partes críticas del software.
+
+- **Comunicación constante**: Mantén una comunicación regular con los desarrolladores, otros testers y los stakeholders. Comparte tus hallazgos, discute los problemas y mantén un flujo de información constante para obtener retroalimentación y colaborar de manera efectiva.
+
+- **Registro detallado**: Mantén un registro detallado de tus pruebas exploratorias, incluyendo los pasos seguidos, los resultados obtenidos y los defectos encontrados. Esto te ayudará a reproducir los problemas y dar seguimiento a los hallazgos.
+
+- **Iteración y mejora continua**: Realiza iteraciones en tus pruebas exploratorias para obtener mejores resultados. Aprende de cada sesión de pruebas y mejora tus habilidades, enfoques y técnicas a lo largo del tiempo.
+
+- **Exploración guiada**: Utiliza técnicas de diseño de pruebas y heurísticas para guiar tus pruebas exploratorias. Establece objetivos claros, sigue pistas y patrones, y utiliza la experiencia y el juicio para encontrar defectos y áreas de mejora.
+
+- **Colaboración en equipo**: Trabaja en colaboración con otros testers y miembros del equipo. Realiza sesiones de pruebas en parejas o en grupo para aprovechar diferentes perspectivas y compartir conocimientos.
+
+- **Equilibrio entre cobertura y tiempo**: Encuentra un equilibrio entre la cobertura de las pruebas y el tiempo disponible. Aprovecha al máximo el tiempo asignado, pero también asegúrate de que las áreas críticas estén adecuadamente probadas.
+
+- **Aprendizaje continuo**: Mantente actualizado sobre las últimas técnicas, herramientas y enfoques en pruebas exploratorias. Continúa aprendiendo y mejorando tus habilidades a través de la práctica y la participación en la comunidad de pruebas.
+
 <h2 id="enlace-6">Que son los Test Charter</h2>
+
+## Tests Charters
+
+Los tests charters son una técnica de pruebas exploratorias estructuradas. Un charter es una descripción detallada de un objetivo de prueba específico, que incluye información sobre qué explorar, cómo explorarlo y qué se espera lograr. El objetivo principal de los tests charters es guiar las pruebas exploratorias de manera efectiva y enfocada.
+
+### Objetivo
+
+El objetivo de los tests charters es descubrir información valiosa sobre el software, encontrar defectos y mejorar la calidad general del producto. Al tener un enfoque claro y específico en cada charter, se busca maximizar el tiempo y los recursos utilizados en las pruebas exploratorias.
+
+### Elaboración
+
+Para elaborar un test charter, se deben seguir los siguientes pasos:
+
+1. Identificar el objetivo de prueba: Define el propósito y el área de enfoque para la exploración. Puede ser una funcionalidad específica, un escenario particular o un requisito crítico.
+
+2. Especificar la información relevante: Incluye detalles sobre el contexto, las condiciones previas, los datos de entrada y los criterios de éxito. Esto proporciona un marco claro para la exploración y ayuda a medir los resultados obtenidos.
+
+3. Establecer límites y restricciones: Define el alcance de la prueba, indicando lo que se incluye y lo que se excluye. Establece límites de tiempo, recursos y áreas fuera de cobertura para evitar desviaciones excesivas.
+
+4. Diseñar los pasos de prueba: Crea una lista de pasos o acciones a seguir durante la exploración. Estos pasos deben ser claros, concisos y orientados a lograr el objetivo de prueba establecido.
+
+### Alcance y limitantes
+
+El alcance de los tests charters puede variar según las necesidades del proyecto y las áreas críticas identificadas. Es importante tener en cuenta que los tests charters no pueden cubrir todas las posibles situaciones de prueba, ya que su enfoque se centra en objetivos específicos. Además, los límites de tiempo, recursos y restricciones pueden limitar la extensión de las pruebas exploratorias.
+
+### Ejemplo
+
+Ejemplo de un test charter para una aplicación de comercio electrónico:
+
+**Objetivo**: Evaluar la funcionalidad de pago en línea y su capacidad para procesar transacciones con tarjeta de crédito.
+
+**Información relevante**:
+- Condiciones previas: Iniciar sesión como usuario registrado.
+- Contexto: Realizar una compra de un producto seleccionado en el carrito de compras.
+- Datos de entrada: Número de tarjeta de crédito válida, fecha de vencimiento y código de seguridad.
+- Criterios de éxito: La transacción se procesa correctamente y se muestra un mensaje de confirmación.
+
+**Pasos de prueba**:
+1. Seleccionar un producto en el carrito de compras.
+2. Ingresar los datos de la tarjeta de crédito.
+3. Confirmar el pago y verificar la respuesta del sistema.
+4. Validar que se muestre un mensaje de confirmación de la transacción.
 
 <h2 id="enlace-7">Sesiones de Pruebas Exploratorias</h2>
