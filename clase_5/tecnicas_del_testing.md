@@ -99,6 +99,51 @@ A continuación se presentan las principales diferencias entre las técnicas est
 
 <h2 id="enlace-3">Técnicas de Pruebas</h2>
 
+## Técnicas de Caja Blanca y Caja Negra
+
+Las técnicas de caja blanca y caja negra son dos enfoques diferentes utilizados en pruebas de software. A continuación, se presentan sus características principales:
+
+### Caja Blanca
+
+- También conocida como prueba estructural o de caja clara.
+- Se basa en el conocimiento interno del sistema y la estructura interna del código.
+- Se examina y prueba el código fuente y las estructuras internas, como las funciones y los caminos de ejecución.
+- El objetivo es evaluar la calidad del código, la cobertura de las pruebas y la lógica interna.
+- Requiere acceso al código fuente y conocimiento técnico detallado.
+- Ejemplo: Pruebas de unidad, pruebas de flujo de control.
+
+### Caja Negra
+
+- También conocida como prueba funcional o de caja cerrada.
+- Se enfoca en el comportamiento externo del software, sin considerar su implementación interna.
+- Se prueba la funcionalidad, las interfaces y los flujos de entrada y salida del sistema.
+- El objetivo es evaluar si el software cumple con los requisitos y expectativas del usuario.
+- No se requiere conocimiento detallado de la implementación interna.
+- Ejemplo: Pruebas de aceptación, pruebas de usabilidad.
+
+### Diferencias
+
+| Técnicas de Caja Blanca | Técnicas de Caja Negra |
+|------------------------|-----------------------|
+| Se basa en la estructura interna del software | Se basa en el comportamiento externo del software |
+| Examina y prueba el código fuente y las estructuras internas | Prueba la funcionalidad, interfaces y flujos de entrada/salida |
+| Requiere conocimiento técnico detallado | No requiere conocimiento detallado de la implementación |
+| Evalúa la calidad del código y la cobertura de pruebas | Evalúa si el software cumple con los requisitos del usuario |
+
+### Importancia y Alcance
+
+Ambas técnicas son importantes en el proceso de pruebas de software:
+
+- Las pruebas de caja blanca ayudan a identificar problemas en la lógica interna y a mejorar la calidad del código.
+- Las pruebas de caja negra validan si el software cumple con los requisitos y expectativas del usuario.
+
+El alcance de las pruebas de caja blanca y caja negra puede variar según los objetivos del proyecto y los recursos disponibles.
+
+### Limitantes
+
+- Las pruebas de caja blanca pueden ser limitadas si no se dispone del acceso al código fuente o si el conocimiento técnico es insuficiente.
+- Las pruebas de caja negra pueden no detectar problemas internos del software debido a la falta de visibilidad de la implementación.
+
 <h2 id="enlace-4">Técnicas de Caja Blanca</h2>
 
 <h2 id="enlace-5">Técnicas de Caja Negra</h2>
