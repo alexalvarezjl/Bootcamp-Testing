@@ -5,8 +5,6 @@
 <li><a href="#enlace-3">Técnicas de Pruebas</a></li>
 <li><a href="#enlace-4">Técnicas de Caja Blanca</a></li>
 <li><a href="#enlace-5">Técnicas de Caja Negra</a></li>
-<li><a href="#enlace-6">Principios del testing</a></li>
-<li><a href="#enlace-7">Actividades y Roles dentro del testing</a></li>
 </ol>
 
 
@@ -383,7 +381,199 @@ Estas técnicas proporcionan un enfoque estructurado para diseñar casos de prue
 | Permiten una mayor independencia entre el equipo de pruebas y el equipo de desarrollo, lo que fomenta la detección de problemas desde una perspectiva externa. | No brindan información directa sobre la estructura interna del software o su calidad de código. |
 | Son efectivas para verificar la funcionalidad y usabilidad del software, así como para detectar problemas de integración con otros sistemas. | Dependen en gran medida de la calidad de los requerimientos y especificaciones proporcionados. |
 
+## Pruebas de Particiones de Equivalencia
 
-<h2 id="enlace-6">¿Qué es calidad?</h2>
+Las pruebas de particiones de equivalencia son una técnica de prueba de caja negra que se centra en dividir el conjunto de datos de entrada en grupos o particiones y seleccionar un conjunto representativo de datos de cada partición para probar. 
 
-<h2 id="enlace-7">¿Qué es calidad?</h2>
+Las pruebas de particiones de equivalencia se basan en la idea de que, si un caso de prueba dentro de una partición es válido, se espera que todos los demás casos de prueba en la misma partición también sean válidos. Por lo tanto, en lugar de probar todos los valores posibles, se prueban representantes de cada partición.
+
+- **Cobertura**: Las pruebas de particiones de equivalencia tienen como objetivo cubrir diferentes grupos o particiones de datos de entrada. Se espera que se prueben casos de prueba que representen cada partición, lo que ayuda a reducir la redundancia de las pruebas y aumenta la cobertura.
+
+- **Alcance**: Las pruebas de particiones de equivalencia se centran en las entradas válidas y no válidas, dividiendo el conjunto de datos de entrada en particiones. El alcance incluye identificar las particiones, seleccionar casos de prueba representativos de cada partición y ejecutar los casos de prueba correspondientes.
+
+- **Objetivos**: Los objetivos de las pruebas de particiones de equivalencia son:
+   - Identificar casos de prueba efectivos y representativos que cubran diferentes rangos de valores de entrada.
+   - Reducir la redundancia de las pruebas al seleccionar solo un caso de prueba por partición.
+   - Aumentar la cobertura de pruebas al abordar las diferentes condiciones lógicas y comportamientos esperados en cada partición.
+
+- **Ejemplos**:
+   1. Prueba de una aplicación de registro de usuarios:
+      - Partición 1: Edades válidas (18-60 años).
+      - Partición 2: Edades no válidas (<18 años y >60 años).
+      Ejemplo de caso de prueba: Ingresar una edad válida (25 años).
+   
+   2. Prueba de una función de cálculo de descuento:
+      - Partición 1: Montos válidos (100-1000 dólares).
+      - Partición 2: Montos no válidos (<100 dólares y >1000 dólares).
+      Ejemplo de caso de prueba: Ingresar un monto válido (500 dólares).
+   
+   3. Prueba de un formulario de registro con campos obligatorios:
+      - Partición 1: Campos obligatorios completos.
+      - Partición 2: Campos obligatorios faltantes.
+      Ejemplo de caso de prueba: Completar todos los campos obligatorios correctamente.
+
+### Pasos para realizar pruebas de particiones de equivalencia
+
+1. **Identificar las clases**: Analiza las especificaciones y los requisitos del software para identificar las clases o particiones de equivalencia. Una clase de equivalencia representa un conjunto de datos de entrada que deberían producir resultados similares o comportamientos equivalentes en el software.
+
+2. **Definir los límites de cada clase**: Determina los límites o rangos de valores para cada clase de equivalencia. Estos límites ayudarán a definir los casos de prueba para cada partición.
+
+3. **Seleccionar casos de prueba válidos**: Elije al menos un caso de prueba representativo para cada clase de equivalencia válida. Estos casos de prueba deben cubrir el rango completo de valores dentro de cada clase.
+
+4. **Seleccionar casos de prueba no válidos**: Selecciona casos de prueba que estén fuera de los límites definidos para cada clase de equivalencia. Estos casos de prueba deben verificar cómo el software maneja los datos de entrada no válidos.
+
+5. **Ejecutar los casos de prueba**: Ejecuta los casos de prueba seleccionados y registra los resultados. Comprueba si el software produce los resultados esperados para cada clase de equivalencia.
+
+6. **Evaluar la cobertura**: Verifica si los casos de prueba seleccionados cubren todas las clases de equivalencia definidas. Asegúrate de que no haya clases de equivalencia sin casos de prueba asociados.
+
+7. **Ajustar y mejorar los casos de prueba**: Revisa los resultados de las pruebas y realiza ajustes en los casos de prueba si es necesario. Asegúrate de que los casos de prueba sean representativos y efectivos para cada partición.
+
+_Estos pasos son una guía general y se pueden adaptar según el contexto y los requisitos del software a probar. Además, es recomendable documentar los pasos seguidos y los resultados obtenidos para futuras referencias._
+
+## Pruebas de Análisis de Valores Límites
+
+Las pruebas de análisis de valores límites son una técnica de prueba que se enfoca en los valores extremos y límites de las particiones de entrada. Su objetivo principal es encontrar errores que puedan ocurrir en los bordes o límites de los rangos de valores. Estas pruebas se centran en los valores mínimos y máximos permitidos, así como en los valores justo dentro y justo fuera de los límites.
+
+**Cobertura:** Las pruebas de análisis de valores límites ofrecen una cobertura efectiva de los casos extremos y límites, lo que ayuda a identificar errores que podrían pasar desapercibidos con otras técnicas de prueba.
+
+**Alcance:** Estas pruebas se centran en los rangos de valores y límites especificados en los requisitos del software. Se pueden aplicar a diferentes tipos de datos, como números, fechas, horas, cadenas de texto, etc.
+
+**Objetivos:**
+- Identificar errores que puedan ocurrir en los límites del rango de valores permitidos.
+- Verificar el comportamiento del software ante valores mínimos y máximos.
+- Comprobar cómo el software maneja los valores justo dentro y justo fuera de los límites especificados.
+
+**Cómo se hacen:**
+1. Identificar los rangos de valores: Analiza los requisitos y especificaciones del software para identificar los límites mínimos y máximos de los rangos de valores relevantes.
+
+2. Definir los valores límite: Determina los valores límite para cada rango identificado. Estos valores serán los puntos de prueba clave.
+
+3. Seleccionar casos de prueba: Elige casos de prueba que cubran los valores límite y los valores justo dentro y justo fuera de los límites. Es importante asegurarse de tener al menos un caso de prueba para cada límite.
+
+**Ejemplos:**
+
+1. Prueba de edad mínima:
+   - Rango de valores: 18 - 65 años.
+   - Valores límite: 18 (edad mínima permitida) y 65 (edad máxima permitida).
+   - Casos de prueba: 17 (valor justo fuera del límite inferior), 18 (valor en el límite inferior), 25 (valor dentro del rango), 65 (valor en el límite superior), 66 (valor justo fuera del límite superior).
+
+2. Prueba de longitud de contraseña:
+   - Rango de valores: 8 - 20 caracteres.
+   - Valores límite: 8 (longitud mínima permitida) y 20 (longitud máxima permitida).
+   - Casos de prueba: "pass" (valor justo fuera del límite inferior), "password" (valor en el límite inferior), "secretpassword" (valor dentro del rango), "verylongpassword" (valor en el límite superior), "extralongpassword" (valor justo fuera del límite superior).
+
+3. Prueba de valor de stock:
+   - Rango de valores: 0 - 1000 unidades.
+   - Valores límite: 0 (valor mínimo permitido) y 1000 (valor máximo permitido).
+   - Casos de prueba: -1 (valor justo fuera del límite inferior), 0 (valor en el límite inferior), 500 (valor dentro del rango), 1000 (valor en el límite superior), 1001 (valor justo fuera del límite superior).
+
+_Es importante resaltar que las pruebas de análisis de valores límites son una técnica complementaria a otras técnicas de prueba y no deben ser utilizadas como único enfoque de prueba._
+
+## Análisis de Valores Límites: Clases Inválidas
+
+En las pruebas de análisis de valores límites, además de probar las clases válidas, es importante también probar las clases inválidas. Estas clases inválidas incluyen el ingreso de valores de otro tipo en lugar del tipo esperado. Algunos ejemplos de clases inválidas son:
+
+- Ingreso de valores numéricos en lugar de valores alfabéticos.
+- Ingreso de valores alfabéticos en lugar de valores numéricos.
+- Combinaciones de valores alfabéticos y numéricos.
+- Fechas erróneas u otros formatos incorrectos.
+- Y otros casos similares.
+
+En algunos casos, la combinación de los datos de entrada puede determinar si una clase es válida o inválida. Por ejemplo:
+
+- Si el estado civil no es "casado", los datos del cónyuge deben ser ignorados.
+- El número de CUIT debe incluir el número de documento.
+- El pago se realiza con tarjeta de crédito y en cuotas.
+
+Es importante agregar condiciones "cruzadas" que se definen en la estructura del modelo de datos y que deben ser probadas. Por ejemplo, si un cliente tiene una factura impaga y realiza un segundo pedido.
+
+Estas pruebas ayudan a identificar posibles errores en las validaciones y reglas de negocio del sistema.
+
+_El objetivo de las pruebas de análisis de valores límites es verificar el comportamiento del sistema frente a diferentes escenarios de entrada, tanto válidos como inválidos, y asegurarse de que el software maneje correctamente todas las situaciones._
+
+## Diseño de Casos de Prueba
+
+Una vez que se han identificado las condiciones que se desean probar utilizando las técnicas de Partición de Equivalencias y Análisis de Valores Límites, el siguiente paso es diseñar los casos de prueba.
+
+#### Cantidad de Casos de Prueba
+La cantidad de casos de prueba puede variar dependiendo de varios factores, como la complejidad del sistema, la criticidad de las condiciones a probar y los recursos disponibles. No existe un número fijo de casos de prueba, pero se recomienda cubrir un conjunto representativo de casos para obtener una buena cobertura de las condiciones y escenarios relevantes.
+
+#### Objetivos
+Los objetivos de diseñar casos de prueba son:
+- Verificar que el software cumpla con los requisitos y especificaciones establecidos.
+- Detectar posibles errores o defectos en el sistema.
+- Evaluar la robustez y la capacidad de respuesta del software ante diferentes condiciones de entrada.
+- Asegurar la calidad y confiabilidad del software.
+
+#### Alcance
+El alcance del diseño de casos de prueba se centra en las condiciones identificadas previamente utilizando las técnicas de Partición de Equivalencias y Análisis de Valores Límites. Se deben diseñar casos de prueba que cubran todas las clases de equivalencia y los valores límites relevantes para cada condición.
+
+#### Limitantes
+Algunos limitantes a considerar en el diseño de casos de prueba son:
+- Limitaciones de tiempo y recursos disponibles para realizar las pruebas.
+- Complejidad del sistema y de las condiciones a probar.
+- Posibilidad de no cubrir todas las combinaciones posibles debido a limitaciones prácticas.
+
+_El diseño de casos de prueba es una actividad importante para garantizar la calidad del software y se debe realizar de manera cuidadosa y exhaustiva, teniendo en cuenta las condiciones identificadas y los objetivos establecidos._
+
+## Tabla de Decisiones
+
+La Tabla de Decisiones es una técnica que se utiliza cuando diferentes combinaciones de entradas resultan en diferentes acciones o resultados esperados. Se enfoca en las reglas de negocios y también se conoce como Tabla o Diagrama Causa-Efecto.
+
+Es un enfoque sistemático para seleccionar conjuntos de casos de prueba que exploran combinaciones en las condiciones de entrada, con el objetivo de obtener un alto rendimiento en las pruebas. Es especialmente útil para la especificación funcional del software, aunque puede ser difícil de implementar.
+
+Los pasos para derivar los casos de prueba utilizando esta técnica son los siguientes:
+
+1. Descomponer la especificación en partes funcionales.
+2. Identificar las causas y sus efectos.
+3. Crear grafos de causa-efecto, representando las relaciones entre las causas y los efectos.
+4. Registrar las restricciones, describiendo combinaciones de causas y/o efectos imposibles.
+5. Convertir el grafo en una tabla de decisiones de entrada limitada, trazando las condiciones de estado en el grafo. Cada columna en la tabla representa un caso de prueba.
+
+La tabla de decisiones es una herramienta efectiva para diseñar conjuntos de casos de prueba que cubran diversas combinaciones de condiciones de entrada y ayuden a verificar el cumplimiento de las reglas de negocio.
+
+## Diagrama de Transición de Estados
+
+El Diagrama de Transición de Estados es una técnica de prueba que utiliza un modelo para describir los diferentes estados de un sistema y las transiciones entre ellos, basadas en reglas específicas. Está especialmente enfocado en aspectos funcionales del sistema.
+
+El diagrama consta de cuatro partes principales:
+
+1. **Estados**: Representan las condiciones o situaciones en las que puede encontrarse el sistema durante su ejecución.
+
+2. **Transiciones**: Son los cambios de estado que ocurren en el sistema en respuesta a eventos específicos.
+
+3. **Eventos**: Son las acciones o sucesos que desencadenan las transiciones de un estado a otro.
+
+4. **Acciones**: Representan las operaciones o tareas que se realizan como resultado de una transición de estado.
+
+Esta técnica permite identificar los diferentes escenarios posibles dentro del sistema y diseñar casos de prueba que cubran las distintas combinaciones de estados y transiciones, validando así el comportamiento del software.
+
+_El Diagrama de Transición de Estados se centra en el flujo lógico del sistema y en cómo responde a los eventos específicos. Es especialmente útil para probar la lógica de negocio y asegurar que los estados y transiciones se comporten correctamente._
+
+### Ejemplo de Diagrama de Transición de Estados
+
+A continuación se presenta un ejemplo simplificado de un diagrama de transición de estados para un sistema de reproducción de música:
+
+**Estados:**
+- Estado Inicial: El sistema está en espera.
+- Estado Reproduciendo: El sistema está reproduciendo una canción.
+- Estado Pausado: La reproducción se encuentra en pausa.
+- Estado Detenido: La reproducción se ha detenido.
+
+**Transiciones:**
+- Play: Permite pasar del estado Inicial al estado Reproduciendo.
+- Pause: Transición del estado Reproduciendo al estado Pausado.
+- Stop: Permite volver al estado Inicial desde los estados Reproduciendo y Pausado.
+
+**Eventos y Acciones:**
+- Play:
+  - Evento: Se presiona el botón de reproducción.
+  - Acción: Inicia la reproducción de la canción.
+- Pause:
+  - Evento: Se presiona el botón de pausa.
+  - Acción: Pausa la reproducción actual.
+- Stop:
+  - Evento: Se presiona el botón de detener.
+  - Acción: Detiene la reproducción y regresa al estado Inicial.
+
+En este ejemplo, el diagrama muestra cómo el sistema de reproducción de música cambia de estado en respuesta a eventos específicos, como presionar los botones de reproducción, pausa y detener. Los estados y las transiciones definen el flujo de ejecución del sistema y las acciones que ocurren en cada transición.
