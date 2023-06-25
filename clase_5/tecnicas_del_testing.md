@@ -146,6 +146,72 @@ El alcance de las pruebas de caja blanca y caja negra puede variar según los ob
 
 <h2 id="enlace-4">Técnicas de Caja Blanca</h2>
 
+## Pruebas de Caja Blanca
+
+Las pruebas de caja blanca son un enfoque de pruebas que se basa en un examen minucioso de los detalles procedimentales y la lógica interna del programa. Se centran en comprobar los caminos lógicos, los bucles, las condiciones y el estado del programa en varios puntos. El objetivo es asegurarse de que todas las sentencias de código sean ejecutadas al menos una vez.
+
+### Tipos de Pruebas de Caja Blanca
+
+1. Pruebas de Sentencia: Se enfocan en probar cada sentencia individual dentro del código para verificar su correcto funcionamiento.
+
+2. Pruebas de Decisión: Se prueban todas las posibles decisiones que pueden ser tomadas en el código, evaluando tanto los caminos verdaderos como los falsos.
+
+3. Pruebas de Condición: Se centran en probar todas las combinaciones posibles de condiciones en el código, verificando cómo afectan al flujo del programa.
+
+4. Pruebas de Condición Múltiple: Se prueban múltiples condiciones combinadas en una sola expresión, con el objetivo de validar el comportamiento del programa en diferentes escenarios.
+
+### Importancia y Beneficios
+
+- Las pruebas de caja blanca ayudan a identificar y corregir errores en la lógica interna del programa.
+- Permiten una mayor cobertura de código al asegurarse de que todas las sentencias sean ejecutadas.
+- Ayudan a mejorar la calidad y confiabilidad del software.
+
+### Consideraciones Adicionales
+
+- Es necesario tener acceso al código fuente y un conocimiento detallado de su implementación para realizar pruebas de caja blanca.
+- Las pruebas de caja blanca son complementarias a otras técnicas de pruebas, como las pruebas de caja negra, para obtener una cobertura más completa.
+
+## Complejidad Ciclomática
+
+La complejidad ciclomática es una métrica utilizada en el campo de la ingeniería de software para medir la complejidad de un programa. Fue propuesta por Thomas J. McCabe en 1976 como una forma de cuantificar el número de caminos lógicos independientes en un código fuente.
+
+### Definición
+
+La complejidad ciclomática se calcula contando el número de regiones linealesmente independientes en un grafo de flujo del programa. Una región independiente representa un conjunto de instrucciones que se ejecutan secuencialmente sin bifurcaciones ni bucles.
+
+### Importancia y Beneficios
+
+- La complejidad ciclomática puede ayudar a identificar partes del código que son difíciles de entender, mantener y probar. Cuanto mayor sea la complejidad ciclomática, mayor será la complejidad del programa.
+- Permite detectar áreas potenciales de riesgo y puntos críticos donde se pueden producir errores.
+- Proporciona una medida cuantitativa de la complejidad, lo que ayuda en la toma de decisiones relacionadas con la refactorización, optimización y prueba del software.
+
+### Interpretación de los valores
+
+- Se calcula mediante la fórmula CC = A - N + 2, donde A son las aristas (flechas) del grafo o condiciones, y N son los nodos del grafo o sentencias. De acuerdo al resultado de la métrica CC, se asigna una valoración al software en términos de mantenibilidad y facilidad de prueba. Por lo general, se utilizan los siguientes rangos:
+    - 1 a 10: Simple de mantener y probar.
+    - 11 a 20: Moderado de mantener y probar.
+    - 21 a 50: Complejo de probar y difícil de mantener.
+    - Mayor a 51: El código es muy riesgoso y debe ser refactorizado.
+
+La complejidad ciclomática es una herramienta importante para identificar áreas de riesgo y evaluar la calidad del código en términos de mantenibilidad y pruebas.
+
+### Ejemplo
+
+```java
+public void validateUserAge(int age) {
+    if (age >= 18) {
+        System.out.println("El usuario es mayor de edad.");
+        if (age >= 65) {
+            System.out.println("El usuario es elegible para descuentos especiales.");
+        }
+    } else {
+        System.out.println("El usuario es menor de edad.");
+    }
+}
+
+_En este ejemplo, el cálculo de la complejidad ciclomática utilizando la fórmula CC = A - N + 2 sería: A = 4 (4 condiciones) y N = 4 (4 sentencias). Por lo tanto, CC = 4 - 4 + 2 = 2. El código se consideraría simple de mantener y probar según el rango establecido._
+
+
 <h2 id="enlace-5">Técnicas de Caja Negra</h2>
 
 <h2 id="enlace-6">¿Qué es calidad?</h2>
