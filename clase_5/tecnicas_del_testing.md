@@ -195,7 +195,9 @@ La complejidad ciclomática se calcula contando el número de regiones linealesm
 
 La complejidad ciclomática es una herramienta importante para identificar áreas de riesgo y evaluar la calidad del código en términos de mantenibilidad y pruebas.
 
-### Ejemplo (Java)
+### Ejemplo
+
+Considere el siguiente código en lenguaje java:
 
 ```java
 public void validateUserAge(int age) {
@@ -211,8 +213,176 @@ public void validateUserAge(int age) {
 ```
 _En este ejemplo, el cálculo de la complejidad ciclomática utilizando la fórmula CC = A - N + 2 sería: A = 4 (4 condiciones) y N = 4 (4 sentencias). Por lo tanto, CC = 4 - 4 + 2 = 2. El código se consideraría simple de mantener y probar según el rango establecido._
 
+## Pruebas de Sentencia y Cobertura
 
-<h2 id="enlace-5">Técnicas de Caja Negra</h2>
+Las pruebas de sentencia son un tipo de prueba que tiene como objetivo garantizar que cada sentencia en el código sea ejecutada al menos una vez durante la ejecución de las pruebas. Se centra en validar la ejecución correcta de cada instrucción individual del programa.
+
+La cobertura es una métrica utilizada para medir el grado en que el código fuente del programa es ejecutado durante las pruebas. La cobertura de sentencia se refiere al porcentaje de sentencias ejecutadas en relación con el total de sentencias en el código.
+
+El objetivo principal de las pruebas de sentencia y cobertura es identificar y alcanzar una alta cobertura de código para asegurar que todas las instrucciones sean probadas y evitar la presencia de código muerto o no ejecutado.
+
+Existen diferentes niveles de cobertura, entre ellos:
+
+- Cobertura de sentencia (Statement coverage): se asegura de que cada sentencia sea ejecutada al menos una vez.
+- Cobertura de decisión (Decision coverage): se asegura de que todas las decisiones lógicas (if, switch, etc.) sean evaluadas en ambas direcciones (verdadero y falso).
+- Cobertura de condición (Condition coverage): se asegura de que todas las condiciones en cada decisión lógica sean evaluadas en ambos resultados posibles (verdadero y falso).
+- Cobertura de condición múltiple (Multiple condition coverage): se asegura de que todas las combinaciones posibles de condiciones en una decisión lógica sean evaluadas.
+
+El objetivo de estas pruebas es garantizar una mayor confianza en la calidad del software, ya que una alta cobertura de código indica que se ha probado de manera exhaustiva.
+
+### Ejemplo
+
+Considere el siguiente código en lenguaje java:
+
+```java
+public class PositiveNumberChecker {
+    public static void main(String[] args) {
+        int num = 10;
+        
+        if (num > 0) {
+            System.out.println("El número es positivo.");
+        } else {
+            System.out.println("El número es negativo o cero.");
+        }
+    }
+}
+```
+_En este ejemplo, se puede aplicar una prueba de sentencia para asegurarse de que ambas sentencias printf sean ejecutadas al menos una vez. También se puede calcular la cobertura de sentencia, que en este caso sería del 100%, ya que todas las sentencias han sido ejecutadas._
+
+## Pruebas de Decisión
+
+Las pruebas de decisión son un tipo de prueba que se enfoca en validar todas las posibles decisiones lógicas dentro de un programa. El objetivo principal es garantizar que todas las decisiones, como las estructuras condicionales (if, switch, etc.), sean evaluadas en ambas direcciones (verdadero y falso).
+
+La cobertura de decisión es una métrica utilizada para medir el grado en que se evalúan todas las decisiones lógicas durante las pruebas. La cobertura de decisión busca asegurar que todas las decisiones sean evaluadas al menos una vez en ambas direcciones.
+
+El alcance de las pruebas de decisión abarca las estructuras condicionales del programa y todas las posibles combinaciones de resultados (verdadero y falso) de cada decisión.
+
+Los objetivos de las pruebas de decisión son:
+
+- Verificar la corrección de las decisiones lógicas dentro del programa.
+- Identificar y corregir posibles errores en las condiciones y en la lógica de las decisiones.
+- Lograr una alta cobertura de decisión para garantizar que todas las ramas lógicas sean evaluadas adecuadamente.
+
+### Ejemplo
+
+Considera el siguiente código en lenguaje Java:
+
+```java
+public class Calculator {
+    public int divide(int dividend, int divisor) {
+        if (divisor == 0) {
+            throw new IllegalArgumentException("Divisor cannot be zero.");
+        }
+        
+        int result = dividend / divisor;
+        
+        if (result > 10) {
+            System.out.println("Result is greater than 10.");
+        } else {
+            System.out.println("Result is less than or equal to 10.");
+        }
+        
+        return result;
+    }
+}
+```
+_En este ejemplo, se pueden realizar pruebas de decisión para evaluar ambas ramas de la condición result > 10 y result <= 10. Además, se puede calcular la cobertura de decisión, que en este caso sería del 100%, ya que todas las decisiones han sido evaluadas en ambas direcciones._
+
+## Pruebas de Condición
+
+Las pruebas de condición son un tipo de prueba que se enfoca en validar las distintas combinaciones de condiciones dentro de una estructura condicional. El objetivo principal es asegurar que todas las posibles combinaciones de condiciones sean evaluadas durante las pruebas.
+
+La cobertura de condición es una métrica utilizada para medir el grado en que se evalúan todas las combinaciones de condiciones durante las pruebas. La cobertura de condición busca asegurar que todas las combinaciones de condiciones sean evaluadas al menos una vez.
+
+El alcance de las pruebas de condición abarca todas las combinaciones de condiciones dentro de una estructura condicional, teniendo en cuenta tanto las condiciones individuales como las combinaciones de múltiples condiciones.
+
+Los objetivos de las pruebas de condición son:
+
+- Verificar la corrección de las condiciones y su interacción dentro de una estructura condicional.
+- Identificar y corregir posibles errores en las condiciones y en la lógica de las combinaciones de condiciones.
+- Lograr una alta cobertura de condición para garantizar que todas las combinaciones de condiciones sean evaluadas adecuadamente.
+
+### Ejemplo
+
+Considera el siguiente código en lenguaje Java:
+
+```java
+public class GradeCalculator {
+    public String calculateGrade(int score) {
+        String grade;
+        
+        if (score >= 90) {
+            grade = "A";
+        } else if (score >= 80) {
+            grade = "B";
+        } else if (score >= 70) {
+            grade = "C";
+        } else if (score >= 60) {
+            grade = "D";
+        } else {
+            grade = "F";
+        }
+        
+        return grade;
+    }
+}
+```
+_En este ejemplo, se pueden realizar pruebas de condición para evaluar todas las posibles combinaciones de condiciones dentro de la estructura condicional. Se debe garantizar que todas las condiciones individuales y combinaciones sean evaluadas durante las pruebas._
+
+## Pruebas de Condición Múltiple
+
+Las pruebas de condición múltiple, también conocidas como pruebas de decisión múltiple, se utilizan para evaluar el comportamiento del software en diferentes combinaciones de condiciones. Estas pruebas tienen como objetivo asegurar que todas las posibles ramas de decisión se ejecuten correctamente.
+
+**Cobertura:** Las pruebas de condición múltiple tienen como objetivo lograr una cobertura exhaustiva de todas las combinaciones posibles de condiciones. Esto implica evaluar todas las combinaciones de verdadero/falso para cada condición en la decisión múltiple.
+
+**Alcance:** El alcance de las pruebas de condición múltiple se centra en probar todas las combinaciones posibles de condiciones dentro de una estructura de decisión. Esto implica considerar tanto las condiciones independientes como las condiciones dependientes.
+
+**Objetivos:** Los objetivos principales de las pruebas de condición múltiple son:
+
+1. Validar que todas las combinaciones de condiciones se evalúen correctamente.
+2. Identificar y corregir posibles errores en la evaluación de las condiciones.
+3. Asegurarse de que se cumplan todos los requisitos y reglas de negocio definidos en la estructura de decisión.
+4. Mejorar la calidad y confiabilidad del software al garantizar que se cubran todas las ramas de decisión.
+
+**Ejemplo:**
+
+Supongamos que tenemos una función que determina la calificación de un estudiante en base a tres criterios: participación, tareas y exámenes. La calificación final se calcula según la siguiente estructura de decisión:
+
+```java
+if (participacion >= 70 && tareas >= 80 && examen >= 60) {
+    calificacion = "Aprobado";
+} else if (participacion >= 60 && tareas >= 70 && examen >= 50) {
+    calificacion = "Aprobado con condicional";
+} else {
+    calificacion = "Reprobado";
+}
+```
+_Para probar esta estructura de decisión, se deben considerar todas las combinaciones posibles de condiciones. Por ejemplo, se deben probar casos donde todas las condiciones sean verdaderas, casos donde solo algunas condiciones sean verdaderas y casos donde todas las condiciones sean falsas. De esta manera, se garantiza una cobertura exhaustiva y se evalúa el comportamiento del software en cada combinación._
+
+<h1 id="enlace-5">Técnicas de Caja Negra</h1>
+
+## Pruebas de Caja Negra
+
+Las pruebas de Caja Negra son una técnica que se centra en evaluar las entradas y salidas de un sistema sin tener conocimiento de su estructura interna. Estas pruebas se basan en los requerimientos de software y las especificaciones funcionales para determinar las entradas y salidas que deben ser probadas.
+
+**Tipos:**
+- **Particiones de Equivalencia:** Esta técnica se basa en dividir el conjunto de posibles valores de entrada en grupos o particiones y probar un valor representativo de cada partición. Esto permite reducir la cantidad de casos de prueba necesarios sin comprometer la cobertura.
+- **Análisis de Valores Límites:** Esta técnica se enfoca en probar los límites de las particiones de equivalencia, es decir, los valores extremos y cercanos a los límites. Esto ayuda a identificar posibles errores relacionados con los límites de los valores de entrada.
+- **Tabla de Decisiones:** Esta técnica se utiliza cuando el comportamiento del sistema depende de combinaciones específicas de valores de entrada. Se crea una tabla que enumera todas las combinaciones posibles y se prueba cada una de ellas para garantizar que el sistema se comporte correctamente en todas las situaciones.
+- **Diagramas de Transición de Estados:** Esta técnica se utiliza para probar sistemas basados en estados, donde el comportamiento del sistema depende de cambios en su estado interno. Se crean diagramas que representan los posibles estados y las transiciones entre ellos, y se prueban las diferentes rutas de transición para asegurar un funcionamiento correcto.
+
+Las pruebas de Caja Negra son importantes porque permiten evaluar el software desde la perspectiva del usuario final y validar que cumpla con los requerimientos y especificaciones funcionales. Al no requerir conocimiento interno del sistema, estas pruebas pueden ser realizadas por personas que no estén familiarizadas con la programación, lo que facilita su ejecución.
+
+Estas técnicas proporcionan un enfoque estructurado para diseñar casos de prueba efectivos y garantizar una buena cobertura de los escenarios de uso más relevantes. Sin embargo, las pruebas de Caja Negra tienen limitaciones, ya que no revelan información detallada sobre posibles errores internos o problemas de rendimiento. Por lo tanto, es recomendable combinarlas con otras técnicas, como las pruebas de Caja Blanca y las pruebas de rendimiento, para obtener una evaluación completa del software.
+
+| Ventajas de las pruebas de Caja Negra | Desventajas de las pruebas de Caja Negra |
+|--------------------------------------|----------------------------------------|
+| No requieren conocimiento interno del sistema, lo que facilita la ejecución por parte de personal no técnico. | No revelan información detallada sobre posibles errores internos o problemas de rendimiento. |
+| Evalúan el software desde la perspectiva del usuario final, validando que cumpla con los requerimientos y especificaciones funcionales. | No permiten una cobertura exhaustiva de todos los caminos y escenarios posibles dentro del software. |
+| Ayudan a identificar errores o discrepancias entre la implementación y los requerimientos establecidos. | Pueden pasar por alto errores relacionados con la lógica interna del software o con situaciones excepcionales no previstas. |
+| Permiten una mayor independencia entre el equipo de pruebas y el equipo de desarrollo, lo que fomenta la detección de problemas desde una perspectiva externa. | No brindan información directa sobre la estructura interna del software o su calidad de código. |
+| Son efectivas para verificar la funcionalidad y usabilidad del software, así como para detectar problemas de integración con otros sistemas. | Dependen en gran medida de la calidad de los requerimientos y especificaciones proporcionados. |
+
 
 <h2 id="enlace-6">¿Qué es calidad?</h2>
 
