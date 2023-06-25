@@ -195,7 +195,7 @@ La complejidad ciclomática se calcula contando el número de regiones linealesm
 
 La complejidad ciclomática es una herramienta importante para identificar áreas de riesgo y evaluar la calidad del código en términos de mantenibilidad y pruebas.
 
-### Ejemplo
+### Ejemplo (Java)
 
 ```java
 public void validateUserAge(int age) {
