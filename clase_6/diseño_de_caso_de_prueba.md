@@ -127,8 +127,6 @@ Los casos de pruebas son una descripción detallada de cómo se deben probar las
 - El caso de uso es utilizado para definir los requisitos del software, mientras que el caso de prueba es utilizado para evaluar si los requisitos se cumplen correctamente.
 
 
-## Ejemplo de Caso de Prueba: Registro de Usuario
-
 | Ejemplo de Caso de Prueba: Registro de Usuario     |                 |
 |---------------------------------------------------|-----------------|
 | **ID del Caso de Prueba:**                        | TC001           |
@@ -140,7 +138,7 @@ Los casos de pruebas son una descripción detallada de cómo se deben probar las
 | - Contraseña:                                     | "Test123!"      |
 | - Confirmación de contraseña:                     | "Test123!"      |
 | **Pasos de prueba:**                              |                   |
-| 1. Abrir la página de registro del sistema.        |                   |
+| 1. Abrir la página de registro del sistema.                           |
 | 2. Ingresar un nombre de usuario válido en el campo correspondiente. |    |
 | 3. Ingresar una dirección de correo electrónico válida en el campo correspondiente. | |
 | 4. Ingresar una contraseña válida en el campo correspondiente. |          |
