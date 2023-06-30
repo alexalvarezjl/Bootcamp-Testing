@@ -4,8 +4,6 @@ El análisis de pruebas, también conocido como análisis de casos de prueba o a
 
 ### Alcance del Análisis de Pruebas
 
-El alcance del análisis de pruebas abarca los siguientes aspectos:
-
 - Revisión y comprensión de los requisitos y especificaciones del software.
 - Identificación de funcionalidades críticas y escenarios de prueba.
 - Diseño de casos de prueba efectivos y adecuados.
@@ -27,37 +25,15 @@ El alcance del análisis de pruebas abarca los siguientes aspectos:
 - No garantiza la detección de todos los defectos y errores en el software.
 - Requiere tiempo y esfuerzo para realizar un análisis exhaustivo.
 
-### Ejemplo Práctico
+### Ejemplo
 
 Supongamos que estás analizando los requisitos de un sistema de gestión de inventario. Durante el análisis de pruebas, identificas un requisito crítico que implica garantizar que el sistema genere automáticamente una alerta cuando la cantidad de un producto en inventario cae por debajo de un umbral mínimo. Diseñas casos de prueba para cubrir diferentes escenarios, como la compra de productos, la actualización de inventario y la verificación de alertas generadas.
 
 ## Condición de Test
 
-La condición de test, también conocida como condición de prueba o criterio de éxito, se refiere al conjunto de condiciones o criterios que deben cumplirse para determinar si un caso de prueba se considera exitoso o fallido. Especifica el resultado esperado que se espera obtener al ejecutar un caso de prueba. La condición de test ayuda a definir los límites de aceptación y a determinar si el software cumple con los requisitos establecidos.
+La condición de test, también conocida como condición de prueba o criterio de éxito, se refiere al conjunto de condiciones o criterios que deben cumplirse para determinar si un caso de prueba se considera exitoso o fallido. Especifica el resultado que se espera obtener al ejecutar un caso de prueba. La condición de test ayuda a definir los límites de aceptación y a determinar si el software cumple con los requisitos establecidos.
 
-### Alcance de la Condición de Test
-
-La condición de test abarca los siguientes aspectos:
-
-- Resultado esperado de la ejecución de un caso de prueba.
-- Valores esperados de variables, estados o comportamientos del sistema.
-- Comparación de resultados obtenidos con los resultados esperados.
-
-### Objetivos de la Condición de Test
-
-- Definir el éxito o el fallo de un caso de prueba.
-- Establecer criterios claros para evaluar la calidad del software.
-- Determinar si el software cumple con los requisitos establecidos.
-- Proporcionar una base objetiva para la toma de decisiones en la fase de pruebas.
-
-### Limitaciones de la Condición de Test
-
-- Dependencia de la calidad y completitud de los requisitos establecidos.
-- Posibilidad de establecer criterios de éxito subjetivos o ambiguos.
-- No garantiza la detección de todos los defectos y errores en el software.
-- Requiere una revisión y validación adecuadas de las condiciones de test.
-
-### Ejemplo Práctico
+### Ejemplo
 
 Supongamos que estás realizando pruebas en un formulario de registro de usuarios. Una condición de test podría ser que, al completar correctamente todos los campos requeridos del formulario y hacer clic en el botón de "Registro", se muestre un mensaje de confirmación en pantalla y se redirija al usuario a una página de inicio de sesión.
 
@@ -66,8 +42,6 @@ Supongamos que estás realizando pruebas en un formulario de registro de usuario
 La trazabilidad en el contexto de QA Testing se refiere a la capacidad de rastrear y seguir la relación entre diferentes artefactos de prueba a lo largo del ciclo de vida del software. Permite establecer vínculos entre los requisitos, casos de prueba, defectos y otros elementos de prueba para comprender la cobertura de prueba, el progreso y la resolución de problemas.
 
 ### Alcance de la Trazabilidad
-
-La trazabilidad abarca los siguientes aspectos:
 
 - Relación entre requisitos funcionales y casos de prueba.
 - Vínculo entre casos de prueba y resultados de ejecución.
@@ -88,7 +62,7 @@ La trazabilidad abarca los siguientes aspectos:
 - No garantiza la detección de todos los problemas y riesgos del software.
 - Dependencia de la calidad y la integridad de la documentación de prueba.
 
-### Ejemplo Práctico
+### Ejemplo
 
 Imaginemos que estás llevando a cabo un proyecto de desarrollo de software y utilizas una herramienta de gestión de pruebas que permite establecer enlaces y relaciones entre los requisitos, casos de prueba y defectos. A medida que ejecutas los casos de prueba y detectas defectos, puedes rastrear la trazabilidad para identificar qué requisitos se ven afectados y qué casos de prueba están asociados a esos requisitos.
 
@@ -97,8 +71,6 @@ Imaginemos que estás llevando a cabo un proyecto de desarrollo de software y ut
 El diseño de tests, también conocido como diseño de casos de prueba, es el proceso de crear casos de prueba efectivos que cubran diferentes aspectos y escenarios del software a ser probado. El objetivo principal del diseño de tests es maximizar la detección de defectos y errores en el software, asegurando una cobertura adecuada de los requisitos y funcionalidades.
 
 ### Alcance del Diseño de Tests
-
-El diseño de tests abarca los siguientes aspectos:
 
 - Identificación de funcionalidades y escenarios críticos a ser probados.
 - Definición de datos de entrada y condiciones iniciales para los casos de prueba.
@@ -118,7 +90,7 @@ El diseño de tests abarca los siguientes aspectos:
 - Requiere una revisión y validación adecuadas de los casos de prueba diseñados.
 - Puede requerir tiempo y esfuerzo adicional, especialmente en proyectos complejos.
 
-### Ejemplo Práctico
+### Ejemplo
 
 Supongamos que estás diseñando casos de prueba para un sistema de reservas de vuelos en línea. Al diseñar los tests, podrías considerar escenarios como la reserva de un vuelo de ida y vuelta, la selección de asientos, el pago con tarjeta de crédito y la emisión de un comprobante de reserva. Además, deberías tener en cuenta casos límite, como la reserva con fechas muy cercanas o la selección de asientos no disponibles.
 
@@ -157,41 +129,37 @@ Los casos de pruebas son una descripción detallada de cómo se deben probar las
 
 ## Ejemplo de Caso de Prueba: Registro de Usuario
 
-**ID del Caso de Prueba:** TC001
-**Nombre del Caso de Prueba:** Registro de Usuario Exitoso
+| Ejemplo de Caso de Prueba: Registro de Usuario     |                 |
+|---------------------------------------------------|-----------------|
+| **ID del Caso de Prueba:**                        | TC001           |
+| **Nombre del Caso de Prueba:**                     | Registro de Usuario Exitoso |
+| **Objetivo:**                                     | Verificar que un usuario pueda registrarse correctamente en el sistema. |
+| **Datos de prueba:**                              |                   |
+| - Nombre de usuario:                              | "JohnDoe123"    |
+| - Correo electrónico:                             | "johndoe@example.com" |
+| - Contraseña:                                     | "Test123!"      |
+| - Confirmación de contraseña:                     | "Test123!"      |
+| **Pasos de prueba:**                              |                   |
+| 1. Abrir la página de registro del sistema.        |                   |
+| 2. Ingresar un nombre de usuario válido en el campo correspondiente. |    |
+| 3. Ingresar una dirección de correo electrónico válida en el campo correspondiente. | |
+| 4. Ingresar una contraseña válida en el campo correspondiente. |          |
+| 5. Confirmar la contraseña ingresada en el paso anterior. |             |
+| 6. Hacer clic en el botón de "Registrarse" o "Crear cuenta". |          |
+| 7. Verificar que se muestre un mensaje de confirmación de registro. |     |
+| 8. Verificar que el usuario sea redirigido a la página de inicio de sesión. | |
+| **Resultado esperado:**                           |                   |
+| - Se muestra un mensaje de confirmación de registro exitoso. |          |
+| - El usuario es redirigido a la página de inicio de sesión. |              |
+| **Condiciones previas:**                          |                   |
+| - El sistema está en un estado inicial.            |                   |
+| - No hay otro usuario registrado con el mismo nombre de usuario o correo electrónico. | |
+| **Criterios de éxito:**                            |                   |
+| - Se cumple cada uno de los pasos de prueba sin errores. |             |
+| - El mensaje de confirmación de registro es visible y muestra un mensaje exitoso. | |
+| - El usuario es redirigido correctamente a la página de inicio de sesión. | |
+| **Estatus:**                                      | Prueba Exitosa   |
 
-**Objetivo:** Verificar que un usuario pueda registrarse correctamente en el sistema.
-
-**Pasos de prueba:**
-1. Abrir la página de registro del sistema.
-2. Ingresar un nombre de usuario válido en el campo correspondiente.
-3. Ingresar una dirección de correo electrónico válida en el campo correspondiente.
-4. Ingresar una contraseña válida en el campo correspondiente.
-5. Confirmar la contraseña ingresada en el paso anterior.
-6. Hacer clic en el botón de "Registrarse" o "Crear cuenta".
-7. Verificar que se muestre un mensaje de confirmación de registro.
-8. Verificar que el usuario sea redirigido a la página de inicio de sesión.
-
-**Datos de prueba:**
-- Nombre de usuario: "JohnDoe123"
-- Correo electrónico: "johndoe@example.com"
-- Contraseña: "Test123!"
-- Confirmación de contraseña: "Test123!"
-
-**Resultado esperado:**
-- Se muestra un mensaje de confirmación de registro exitoso.
-- El usuario es redirigido a la página de inicio de sesión.
-
-**Condiciones previas:**
-- El sistema está en un estado inicial.
-- No hay otro usuario registrado con el mismo nombre de usuario o correo electrónico.
-
-**Criterios de éxito:**
-- Se cumple cada uno de los pasos de prueba sin errores.
-- El mensaje de confirmación de registro es visible y muestra un mensaje exitoso.
-- El usuario es redirigido correctamente a la página de inicio de sesión.
-
-**Estatus:** Prueba Exitosa
 
 ### Especificaciones del Diseño de la Prueba
 
