@@ -47,7 +47,7 @@ El nombre "Scrum" se debe al enfoque centrado en el equipo, que trabaja de maner
 
 Scrum fomenta la transparencia, la inspección y la adaptación continua. Al enfocarse en entregas incrementales y en la colaboración efectiva del equipo, Scrum permite a las organizaciones responder de manera ágil y efectiva a los cambios en los requisitos y en el entorno del proyecto.
 
-![Scrum](image.png)
+![Scrum](../assets/scrum.png)
 
 En Scrum, los miembros del equipo se respetan, tienen el coraje de hacer lo correcto ante adversidades, son francos y asumen el compromiso de lograr sus objetivos apoyándose mutuamente, con un enfoque centrado en su principal tarea: el mejor progreso posible sobre el trabajo del sprint.
 
