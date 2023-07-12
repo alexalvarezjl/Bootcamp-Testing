@@ -132,7 +132,7 @@ Algunas herramientas que se pueden utilizar para implementar el Método Kanban s
 
 Estas herramientas proporcionan una plataforma para gestionar visualmente el flujo de trabajo y aplicar las prácticas centrales del Método Kanban.
 
-**Recursos utiles:**
+### Recursos utiles:
 
 - https://djaa.com/kanban-board-examples/
 - https://djaa.com/revisiting-emerging-roles-in-kanban/
@@ -141,6 +141,7 @@ Estas herramientas proporcionan una plataforma para gestionar visualmente el flu
 - https://djaa.com/applying-kanban-to-sales/
 - https://djaa.com/individual-kanban-faq/
 - https://djaa.com/applicability-of-the-kanban-method-to-the-legal-sector/
+
 
 **_SCRUM y KANBAN no son excluyentes entre sí._**
 _Los equipos de trabajo pueden usar scrum para su operativa y Kanban para monitorear y verificar que los procesos fluyan con la agilidad necesaria o para hacer ajustes globales, de ser  necesario._
@@ -164,6 +165,28 @@ A estos podríamos sumar las siguientes características necesarias para el éxi
 - Capacidad de decisión
 - Capacidad de aprendizaje
 
-Más recursos utiles:
+### Más recursos utiles:
 - https://www.getsoftwareservice.com/roles-and-responsibilities-of-quality-analyst-in-software-development/
 - https://www.kualitee.com/testing/anatomy-qa-tester/
+
+
+## Estrategias de Testing Ágil
+
+En el marco del desarrollo de software ágil, es importante definir una estrategia de testing que permita planificar los procesos y adaptarse a los cambios en los equipos de trabajo. Una estrategia de testing validada y documentada es fundamental para evitar la pérdida de información y conocimientos, incluso cuando los miembros del equipo cambien de proyecto.
+
+Algunas estrategias de testing ágil que se pueden considerar incluyen:
+
+1. **Integración temprana de testing**: En lugar de dejar el testing para el final del ciclo de desarrollo, se busca incorporar actividades de testing desde las primeras etapas. Esto ayuda a detectar y corregir problemas a medida que se desarrolla el software, evitando acumular errores y retrasos en etapas posteriores.
+
+2. **Automatización de pruebas**: La automatización de pruebas es clave en el desarrollo ágil, ya que permite ejecutar casos de prueba de manera rápida y repetitiva. Esto acelera el proceso de testing y ayuda a mantener la calidad del software a medida que se realizan cambios o se agregan nuevas funcionalidades.
+
+3. **Enfoque en pruebas de regresión**: Dado que en el desarrollo ágil se realizan cambios y entregas frecuentes, es importante enfocarse en las pruebas de regresión. Estas pruebas aseguran que las funcionalidades existentes sigan funcionando correctamente después de cada cambio realizado.
+
+4. **Colaboración y comunicación constante**: El testing ágil requiere una estrecha colaboración entre los miembros del equipo de desarrollo y los testers. La comunicación constante ayuda a comprender los requisitos, identificar los riesgos y definir las estrategias de testing más adecuadas para cada iteración.
+
+5. **Pruebas exploratorias**: Las pruebas exploratorias son una parte integral del enfoque ágil. Los testers pueden aprovechar su experiencia y conocimiento del software para explorar diferentes escenarios y realizar pruebas ad hoc. Esto ayuda a descubrir problemas y mejorar la calidad del software de manera iterativa.
+
+6. **Feedback y mejora continua**: El enfoque ágil promueve el feedback y la mejora continua. Los resultados de las pruebas, los informes de errores y las lecciones aprendidas se utilizan para retroalimentar y mejorar el proceso de desarrollo y testing en cada iteración.
+
+Es importante adaptar la estrategia de testing a las necesidades y características específicas de cada proyecto y equipo. Una estrategia bien definida y documentada brinda dirección y asegura que el proceso de testing sea eficiente y efectivo a lo largo del ciclo de desarrollo.
+
