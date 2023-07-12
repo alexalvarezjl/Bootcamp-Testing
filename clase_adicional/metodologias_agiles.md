@@ -57,7 +57,7 @@ Para mantener la agilidad y la eficiencia, generalmente los equipos Scrum son pe
 
 Al tener equipos pequeños, se promueve la comunicación y colaboración efectiva entre los miembros. Todos los integrantes del equipo son importantes y aportan su experiencia y habilidades para alcanzar los objetivos comunes. La colaboración y el apoyo mutuo son fundamentales para el éxito del equipo Scrum.
 
-### Eventos de scrum
+## Eventos de scrum
 Existen cuatro eventos formales para inspección y adaptación dentro de cada sprint:
 ![Actividades Scrum](../assets/actividades_scrum.png)
 
@@ -84,7 +84,7 @@ En japonés, Kanban significa "letrero" o "señal". Surgió a fines de la décad
 
 El Kanban es un sistema de gestión de procesos visuales que indica qué producir, cuándo producirlo y en qué cantidad.
 
-**Método Kanban**
+## Método Kanban
 
 El método Kanban, formulado por David J. Anderson, es un enfoque para el cambio evolutivo incremental en las organizaciones de desarrollo. Es una aproximación a la mejora de los procesos organizacionales de manera gradual y evolutiva.
 
@@ -96,7 +96,7 @@ El proceso, desde la definición de la tarea hasta su entrega, se muestra visual
 
 El Kanban fomenta la transparencia, la colaboración y la visualización del flujo de trabajo, lo que ayuda a identificar y resolver problemas de manera más efectiva.
 
-**Principios fundamentales del Método Kanban**
+## Principios fundamentales del Método Kanban
 
 El Método Kanban se rige por algunos principios fundamentales que guían su aplicación y fomentan la mejora continua:
 
@@ -108,7 +108,7 @@ El Método Kanban se rige por algunos principios fundamentales que guían su apl
 
 El Método Kanban promueve la participación activa y la apertura a la retroalimentación de todos los miembros de la organización, fomentando un entorno propicio para la mejora continua.
 
-**Prácticas centrales del Método Kanban**
+## Prácticas centrales del Método Kanban
 
 1. **Visualizar el flujo de trabajo**: La visualización del flujo de trabajo es fundamental para comprender cómo avanza el trabajo. Representar cada actividad con tarjetas o columnas ayuda a hacer visible la secuencia de actividades y los estados del flujo de trabajo.
 
@@ -190,3 +190,23 @@ Algunas estrategias de testing ágil que se pueden considerar incluyen:
 
 Es importante adaptar la estrategia de testing a las necesidades y características específicas de cada proyecto y equipo. Una estrategia bien definida y documentada brinda dirección y asegura que el proceso de testing sea eficiente y efectivo a lo largo del ciclo de desarrollo.
 
+## Tipos de Estrategias de Testing
+
+Existen diferentes tipos de estrategias para abordar las tareas de testing, cada una con enfoques y objetivos específicos. Algunos de los tipos de estrategias más comunes son:
+
+1. **Estrategia Analítica**: Esta estrategia se basa en un análisis sistemático de los requerimientos del sistema y/o en el análisis de los riesgos asociados. Se busca identificar los aspectos críticos y las áreas de mayor impacto para enfocar los esfuerzos de testing de manera efectiva.
+
+2. **Estrategia Basada en Modelos**: Esta estrategia se basa en el uso de modelos para analizar el comportamiento del sistema. Por ejemplo, se pueden utilizar modelos UML, tablas de decisión o diagramas de transición de estados para diseñar y ejecutar casos de prueba.
+
+3. **Estrategia Metódica**: Esta estrategia se basa en el uso de conjuntos de pruebas estándar o checklists de pruebas predefinidos. Se establecen criterios y procedimientos específicos que deben seguirse en todas las pruebas, asegurando una cobertura adecuada de los aspectos críticos del sistema.
+
+4. **Estrategia Basada en Estándares**: Esta estrategia sigue los lineamientos y estándares establecidos por organismos externos o normativas como ISO. Se enfoca en cumplir con los requisitos y regulaciones específicas establecidas por esos estándares.
+
+5. **Estrategia Reactiva**: Esta estrategia se basa en reaccionar a los desarrollos que ya están listos para ser testeados. Se analiza y se realizan pruebas una vez que el sistema o componente está completamente desarrollado. Esto puede ser útil en situaciones en las que no es posible realizar pruebas durante el proceso de desarrollo.
+
+6. **Estrategia Consultiva**: Esta estrategia se basa en la consulta y el consejo de expertos externos al equipo de testing. Se busca obtener una visión objetiva y una evaluación imparcial del sistema, aprovechando la experiencia y conocimientos de profesionales especializados.
+
+Es importante elegir la estrategia de testing más adecuada según las necesidades y características del proyecto. En muchos casos, se puede combinar diferentes enfoques para obtener una cobertura integral y efectiva.
+
+_Puede que algunas empresas utilicen un mix de estas estrategias sin tener una definida. En ocasiones  alguna empresa o grupos de trabajo tienen estrategias bien consolidadas que se aplican a conciencia._
+_De hecho, el equipo podría decidir modificar el tipo de estrategia elegida dependiendo del tipo de proyecto en el que esté trabajando._

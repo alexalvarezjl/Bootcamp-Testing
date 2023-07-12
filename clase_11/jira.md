@@ -151,3 +151,62 @@ La gestión de requisitos y casos de prueba con Jira es una forma de especificar
 Un ejemplo de gestión de requisitos y casos de prueba con Jira es el siguiente:
 
 Supongamos que tienes un proyecto de desarrollo web y quieres gestionar los requisitos y los casos de prueba con Jira. Puedes usar el tipo de ticket "Historia" para crear y documentar los requisitos del proyecto, como "Como usuario quiero registrarme en la web". Luego, puedes usar el tipo de ticket "Caso de prueba" para crear y especificar los casos de prueba asociados a cada requisito, como "Verificar que el usuario puede registrarse con un correo electrónico válido". Después, puedes organizar y agrupar los casos de prueba usando conjuntos de pruebas o etiquetas, como "Registro" o "Funcionalidad". A continuación, puedes ejecutar los casos de prueba manualmente o mediante automatización y registrar los resultados, el tiempo y los defectos en Jira. Finalmente, puedes seguir el progreso y la calidad de las pruebas usando informes y paneles que te muestran la información relevante sobre las pruebas.
+
+# Ejemplo de uso de JIRA
+
+¿El equipo usa Épicas, historias de usuario, subtareas e incidencias para gestionar sus proyectos y reportes de defectos? ¿Usa otra terminología o clasificaciones?
+¿Qué clasificaciones de severidad utiliza? ¿Cuántos niveles de prioridad hay? ¿Qué pasos o estados puede atravesar un caso de desarrollo (o historia de usuario)?
+¿Qué pasos o estados puede atravesar un caso para una incidencia o defecto? ¿Cómo es el proceso de reporte de defectos?
+
+**A continuación como se mostraría un tablero tipo Kanban dentro de Jira, los diferentes estados del trabajo en curso y terminados.**
+
+![Tablero Jira](../assets/tablero_jira.png)
+
+Cada columna representa un estado. Cada registro de caso de desarrollo, incidencia o de los tipos de proyecto que se usen, se ubican bajo la columna que representa el estado actual del proyecto.
+
+Estados: 
+- Por hacer
+- En progreso
+- En desarrollo
+- Listo para testear
+- Testeando
+- Listo para UAT
+- Terminado
+
+Para actualizar el estado de un proyecto simplemente se selecciona la opción correspondiente del listado.
+
+![Estados Jira](../assets/estados_jira.png)
+
+Esto es solo un ejemplo muy básico y  tu equipo podría manejar otros estados u otra terminología para referirse a las diferentes fases por las que atraviesa cada proyecto.
+
+Los tipos de proyecto también se pueden configurar. Por defecto podrás encontrar:
+
+![Tipos de Eventos](../assets/tipos_de_eventos_jira.png)
+
+Así se observa el panel de detalles de un proyecto que está siendo testeado:
+
+![Panel de Detalles](../assets/panel_detalles.png)
+
+Tal como se observa, es posible asignar:
+- Responsable al proyecto
+- Nombre de quien creo o informó el proyecto
+- Etiquetas
+- Estimación y tracking real de horas dedicadas
+- Story points si se estima en story points
+- Sprint
+- Rama de desarrollo
+
+Ten en cuenta que se puede configurar los campos que se deben mostrar y su orden.
+Jira permite filtrar la información para visualizarla en listas. Los usuarios con permisos para crear y guardar sus listas o reportes, pueden generar marcadores.
+Esto es útil para visualizar el trabajo pendiente rápidamente.
+
+![Trabajo Pendiente](../assets/trabajo_pendiente_jira.png)
+
+![Filtros Jira](../assets/filtros_jira.png)
+
+Filtrar información y generar tus propios reportes y listas,  anclarlos a un menú de acceso rápido es verdaderamente importante para ayudarte a:
+ 
+- Visualizar rápidamente los proyectos que tienen en proceso
+- Tener visibilidad sobre proyectos o tareas prioritarias
+- Encontrar la información de forma fácil y rápida
+- Compartir información o reportes con otras personas
