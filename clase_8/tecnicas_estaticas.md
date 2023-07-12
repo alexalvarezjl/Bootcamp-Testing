@@ -1,3 +1,5 @@
+# Técnicas Estáticas.
+
 ## Verificación estática
 
 La verificación estática es una técnica de prueba que se realiza sin ejecutar el software. Se centra en examinar los artefactos y documentos relacionados con el desarrollo del software para identificar posibles problemas, errores o incumplimientos de estándares. El objetivo es mejorar la calidad y la precisión de estos documentos antes de avanzar en el proceso de desarrollo.
