@@ -14,7 +14,7 @@ JIRA es una popular herramienta de gestión de proyectos y seguimiento de incide
 
 5. **Integraciones**: JIRA se integra con muchas otras herramientas populares utilizadas en el desarrollo de software, como repositorios de código (como Git y GitHub), herramientas de CI/CD (como Jenkins), herramientas de colaboración (como Confluence) y sistemas de seguimiento de versiones (como Bitbucket).
 
-![Logo Jira](image.png)
+![Logo Jira](<../assets/Jira Software@2x-blue.png>)
 
 ## Beneficios de usar JIRA
 
