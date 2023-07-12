@@ -60,3 +60,16 @@ Al tener equipos pequeños, se promueve la comunicación y colaboración efectiv
 ### Eventos de scrum
 Existen cuatro eventos formales para inspección y adaptación dentro de cada sprint:
 ![Actividades Scrum](../assets/actividades_scrum.png)
+
+Dentro del equipo Scrum, existen roles clave que desempeñan funciones específicas:
+
+**Scrum Master**: El Scrum Master es responsable de inculcar la metodología Scrum en el equipo. Su objetivo principal es facilitar y asegurar que el equipo siga las prácticas y los principios de Scrum. El Scrum Master actúa como un líder y un facilitador, eliminando obstáculos, fomentando la colaboración y promoviendo la mejora continua.
+
+**Product Owner**: El Product Owner, también conocido como Dueño de Producto, es el responsable de maximizar el valor del producto. Trabaja en estrecha colaboración con el equipo Scrum y los stakeholders para definir y priorizar los elementos del backlog del producto. El Product Owner toma decisiones sobre qué características y funcionalidades se deben desarrollar y cuándo deben entregarse, siempre teniendo en cuenta las necesidades y expectativas de los usuarios y los stakeholders.
+
+**Desarrolladores**: Los desarrolladores son los miembros del equipo que se dedican a resolver las tareas seleccionadas para cada sprint. Son profesionales multifuncionales y autónomos que trabajan en conjunto para desarrollar el incremento de valor durante cada ciclo. Los desarrolladores colaboran, se apoyan mutuamente y se esfuerzan por entregar un trabajo de alta calidad.
+
+Cada uno de estos roles tiene responsabilidades específicas dentro del equipo Scrum y colabora activamente para lograr los objetivos del proyecto.
+
+### Para saber más sobre Scrum
+En https://scrumguides.org/download.html se puede encontrar la guia oficial de scrum (actualizada en 2020) escrita por sus creadores (Jeff Sutherland y Ken Schwaber) y traducciones a diferentes idiomas hechas por miembros de la comunidad.
