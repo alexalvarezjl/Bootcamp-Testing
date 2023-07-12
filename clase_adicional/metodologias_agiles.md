@@ -210,3 +210,42 @@ Es importante elegir la estrategia de testing más adecuada según las necesidad
 
 _Puede que algunas empresas utilicen un mix de estas estrategias sin tener una definida. En ocasiones  alguna empresa o grupos de trabajo tienen estrategias bien consolidadas que se aplican a conciencia._
 _De hecho, el equipo podría decidir modificar el tipo de estrategia elegida dependiendo del tipo de proyecto en el que esté trabajando._
+
+Una estrategia de testing es concretamente la definición de cómo deben llevarse a cabo las tareas de testing y aquellas relacionadas a las pruebas de software;
+¿Qué tareas se llevan a cabo? ¿cómo se abordan? ¿en qué orden? ¿por quién? 
+ 
+¿Qué táctica usar para el testing ágil?
+En el mejor de los casos un mix de los modelos que mencionamos anteriormente.
+
+_En el marco del desarrollo ágil es valioso ser ordenado, responsable y metódico._
+_Es útil adelantar todo el trabajo posible para maximizar la eficiencia y la eficacia (en nuestro rol de identificar defectos). También es clave tener la flexibilidad para adaptarse y decidir cómo seguir cuando un plan cambia._
+
+_A la hora del diseño del plan de pruebas, es recomendable empezar por una lista de pruebas que consistan en: Id, título y una descripción._
+_Una vez que se generó el borrador con todas las descripciones de casos de prueba trabajar en los detalles de cada prueba._
+_Ten en cuenta que el título y la descripción deberían ser suficientes para entender exactamente qué debe es lo que debe probar la prueba._
+_De esta manera tendremos una lista con una descripción de todo lo que debemos probar en su totalidad._
+
+### En en la etapa estática se podría:
+
+- Analizar requerimientos y modelos disponibles, para darle forma a las pruebas y cubrir requerimientos, flujos y transiciones de estado, siempre contemplando la variable riesgo para asignar prioridad.
+- Revisar si hay sets de pruebas comunes que apliquen para el objeto bajo test. De ser así, agregarlo al plan. Por ejemplo: si el sistema tiene formularios es posible que se puedan aplicar pruebas que son comunes y requeridas para formularios
+- Revisar si el sistema bajo test aplica para ser testeado bajo algún estándar. Por ejemplo: si el sistema debe cumplir con reglas de accesibilidad entonces deberían agregarse las pruebas correspondientes al plan de pruebas.
+- Consultar con expertos en la materia para asegurarse de que se están cubriendo todos los aspectos claves del sistema y en caso de que se nos hubiera pasado algún caso de uso, agregarlo. Quizás el sistema en desarrollo está relacionado a un área que no resulta  familiar. Siempre es útil consultarla con un experto o SME – subject matter expert.
+- Reportar los defectos que se hayan encontrado en la documentación, aclarar las dudas con las personas correspondientes, terminar de armar el plan de pruebas.
+ 
+**Una vez armado el plan de pruebas preparar el ambiente para ejecutar las pruebas cuando el sistema esté listo.** 
+
+Si se avanza con el análisis en la etapa estática, es decir, antes de que el sistema esté listo para testearse lo único que queda, es ejecutar las pruebas. Hecho así, la etapa de ejecución puede ser una tarea bastante simple. Incluso puede delegarse o distribuirse entre varias personas.
+En el marco del desarrollo ágil podría pasar que tenemos nuestro análisis incompleto o recién iniciado y el producto ya está listo para testearse. En ese caso sería válido usar una estrategia reactiva: hacer el trabajo inverso, probar el sistema, explorarlo y tomar nota de los hallazgos.
+Otra manera es probar el sistema a la par de la revisión de la documentación de requerimientos o historias de usuario o de cualquier otra documentación que tengamos a disposición.
+
+**En resumen:**
+Es recomendable anticipar las tareas de análisis, diseño de plan y preparación de ambiente para las pruebas.
+En caso de suspender el diseño de nuestro plan de pruebas y necesitar comenzar la ejecución de pruebas directamente, es bueno contar con al menos un borrador de las pruebas más críticas.
+
+### Info Adicional
+- ¿Qué es integración continua? https://www.atlassian.com/es/agile/software-development/continuous-integration
+
+**Herramientas populares de automatización:**
+En exploradores web: Selenium, Cucumber, Puppeteer, Playwright, Testcafe, Cypress.
+En mobile: Appium, Detox, Calabash.
