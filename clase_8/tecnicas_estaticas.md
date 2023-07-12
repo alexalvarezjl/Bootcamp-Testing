@@ -264,3 +264,191 @@ Además, las inspecciones no se utilizan para obtener la aprobación final de un
 Las inspecciones tampoco se utilizan para evaluar el desempeño individual de las personas involucradas en el proceso de desarrollo. Si bien las inspecciones implican la participación de un grupo de personas y fomentan la colaboración y el trabajo en equipo, no se deben utilizar como una herramienta para medir o juzgar el rendimiento individual. La finalidad de las inspecciones es mejorar la calidad del producto y el proceso de desarrollo en su conjunto, no para evaluar o calificar a las personas involucradas.
 
 En resumen, las inspecciones no están diseñadas para encontrar soluciones a las fallas, obtener la aprobación final de un producto de trabajo o evaluar el desempeño individual. Su objetivo principal es identificar y documentar las fallas, mejorar la calidad del producto y optimizar el proceso de desarrollo mediante la participación activa y la colaboración del equipo.
+
+
+## Roles en una Inspección
+
+En una inspección, se asignan diferentes roles a los participantes para asegurar un proceso efectivo y enfocado. Estos roles incluyen:
+
+### 1. Moderador
+
+- Funciones: El moderador lidera la sesión de inspección y se encarga de guiar el proceso. Su rol es asegurar que se sigan las reglas y pautas establecidas, mantener el enfoque de la discusión y fomentar la participación activa de todos los involucrados.
+- Objetivos: El objetivo del moderador es facilitar la revisión de manera eficiente y efectiva, asegurando que todos los puntos relevantes sean discutidos y que se tomen decisiones adecuadas.
+- Alcances: El moderador tiene la responsabilidad de asegurar que la revisión se centre en los aspectos específicos del producto de trabajo que se están evaluando y que se cumplan los objetivos establecidos.
+- Limitantes: El moderador puede enfrentar desafíos para mantener el equilibrio entre el tiempo asignado para la revisión y la profundidad de la discusión, así como para manejar posibles conflictos o discrepancias entre los participantes.
+
+### 2. Autor
+
+- Funciones: El autor es el responsable de presentar el producto de trabajo a ser revisado. Proporciona información relevante, responde preguntas y explica cualquier aspecto técnico o funcional relacionado con el producto.
+- Objetivos: El objetivo del autor es recibir retroalimentación y comentarios sobre su trabajo, así como proporcionar aclaraciones necesarias para una mejor comprensión del producto.
+- Alcances: El autor tiene la oportunidad de demostrar su conocimiento y competencia en relación con el producto y recibir sugerencias y mejoras de los demás participantes.
+- Limitantes: El autor puede tener dificultades para aceptar críticas o sugerencias, lo que puede afectar la efectividad de la revisión. Además, puede haber limitaciones de tiempo para presentar adecuadamente el producto y responder a todas las preguntas.
+
+### 3. Anotador
+
+- Funciones: El anotador se encarga de tomar notas detalladas durante la sesión de inspección. Registra los hallazgos, comentarios, preguntas y decisiones tomadas durante la revisión.
+- Objetivos: El objetivo del anotador es documentar de manera precisa y completa todo lo discutido y acordado durante la inspección, para facilitar la posterior corrección de defectos y seguimiento de acciones.
+- Alcances: El alcance del anotador se centra en registrar los aspectos relevantes de la revisión y asegurar que la información sea clara y comprensible para su posterior uso.
+- Limitantes: El anotador puede enfrentar el desafío de tomar notas de manera rápida y precisa mientras se mantiene al tanto de la discusión en curso. Además, la interpretación o resumen de la información puede estar sujeta a la perspectiva del anotador.
+
+### 4. Lector
+
+- Funciones: El lector tiene la responsabilidad de leer en voz alta el producto de trabajo durante la revisión, lo que permite una comprensión más profunda y ayuda a identificar posibles errores o problemas.
+- Objetivos: El objetivo del lector es facilitar la revisión activa del producto de trabajo, asegurando que todos los participantes tengan la oportunidad de escuchar y analizar el contenido en detalle.
+- Alcances: El lector se enfoca en leer el producto de trabajo de manera clara y comprensible, resaltando aspectos relevantes y asegurándose de que la lectura sea fluida y accesible para todos los participantes.
+- Limitantes: El lector puede enfrentar dificultades en la pronunciación o entonación, lo que puede afectar la comprensión y el análisis del producto de trabajo por parte de los demás participantes.
+
+### 5. Inspector
+
+- Funciones: El inspector es el encargado de analizar y evaluar el producto de trabajo durante la revisión. Su rol es identificar defectos, desviaciones, incumplimientos de estándares o cualquier aspecto que requiera mejora.
+- Objetivos: El objetivo del inspector es detectar y señalar problemas o áreas de mejora en el producto de trabajo, brindando una perspectiva crítica y constructiva para su perfeccionamiento.
+- Alcances: El inspector se concentra en evaluar el producto de trabajo en relación con los estándares, requerimientos y buenas prácticas establecidas, buscando asegurar la calidad y la conformidad del mismo.
+- Limitantes: El inspector puede enfrentar desafíos para identificar todos los defectos o problemas presentes en el producto de trabajo debido a limitaciones de tiempo, conocimiento o perspectiva.
+
+_La colaboración y la comunicación efectiva entre los diferentes roles son fundamentales para llevar a cabo una inspección exitosa y obtener los mejores resultados en términos de detección de defectos, mejora del producto y crecimiento profesional de los participantes._
+
+
+## Composición de los Equipos en Inspecciones
+
+En las inspecciones, la composición del equipo puede variar dependiendo del tipo de documento o producto de trabajo que se esté revisando. A continuación se presentan algunos aspectos a considerar:
+
+- Tamaño del equipo: El moderador y el autor son los responsables de determinar el tamaño adecuado del equipo de revisión. Generalmente, se recomienda que el equipo no sea mayor a 8 personas ni menor a 3 personas. Sin embargo, este tamaño puede ajustarse según las necesidades y características específicas del documento o producto en revisión.
+
+- Documentos de requerimientos: Para revisar documentos de requerimientos, se puede considerar la participación de grupos más grandes, ya que estos documentos suelen abarcar una amplia gama de aspectos y requerimientos del sistema. La inclusión de diferentes perspectivas puede enriquecer la revisión y garantizar una cobertura exhaustiva.
+
+- Código fuente y casos de prueba: Para revisar código fuente o casos de prueba, se recomienda trabajar con equipos más pequeños. Esto permite una revisión más detallada y eficiente, donde los participantes pueden profundizar en los detalles técnicos y realizar análisis más exhaustivos.
+
+- Puntos de vista representados: Es importante asegurarse de que el equipo incluya diferentes puntos de vista relevantes para el producto o documento en revisión. Algunos ejemplos de roles que pueden estar presentes en un equipo de inspección incluyen: usuario, arquitecto, diseñador, programador y tester. Cada uno de estos roles aporta una perspectiva única y puede identificar diferentes tipos de problemas o mejoras en el producto.
+
+_La composición del equipo puede variar según el contexto y las necesidades específicas de la inspección. La diversidad de perspectivas y la colaboración entre los miembros del equipo son fundamentales para obtener resultados sólidos y garantizar una revisión efectiva del producto de trabajo._
+
+
+## Fases de una Inspección: Planificación
+
+La planificación es una fase crucial en el proceso de inspección, donde se establecen los preparativos necesarios para llevar a cabo la revisión de manera efectiva. A continuación se detallan las fases de la planificación:
+
+1. Verificación de la preparación del producto: Se verifica que el producto a ser inspeccionado esté listo y completo, de modo que se pueda realizar una revisión exhaustiva y precisa.
+
+2. Asignación de roles: Se asignan los roles necesarios para el proceso de inspección. Estos roles pueden incluir al moderador, autor, anotador, lector, inspector, entre otros. Cada rol tiene responsabilidades específicas dentro de la inspección.
+
+3. Determinación de la reunión de vista previa: Se evalúa la necesidad de realizar una reunión de vista previa antes de la inspección formal. Esta reunión tiene como objetivo discutir y aclarar cualquier duda o problema relacionado con el producto o los criterios de revisión.
+
+4. División del producto: El producto a ser inspeccionado se divide en partes más pequeñas y manejables. Esto facilita el proceso de revisión y permite que cada inspector se enfoque en una sección específica del producto.
+
+5. Distribución del documento: El documento o los documentos relevantes se distribuyen a todos los inspectores. Además, se proporcionan cualquier otro documento o referencia previa necesaria para realizar la revisión de manera efectiva.
+
+6. Planificación de la reunión: Se planifica la reunión formal de inspección, estableciendo la fecha, hora y lugar adecuados. Se consideran aspectos logísticos y se garantiza la disponibilidad de todos los participantes.
+
+7. Envío de invitaciones: Se envían las invitaciones a la reunión a todos los participantes involucrados en la inspección. Esto garantiza que todos estén informados y puedan participar en la reunión planificada.
+
+La fase de planificación sienta las bases para una inspección exitosa. Es fundamental asegurarse de que todos los aspectos necesarios estén cubiertos y de que se haya establecido una comunicación clara con todos los participantes.
+
+
+## Fases de una Inspección: Vista Previa
+
+La vista previa es una fase importante en el proceso de inspección, donde el autor brinda una introducción y presenta el contexto y la información relevante a los miembros del equipo antes de la revisión formal. A continuación se describe esta fase:
+
+- Introducción del autor: El autor del producto a ser inspeccionado da una introducción a los miembros del equipo. Esto incluye presentarse, explicar su rol y su contribución al producto.
+
+- Explicación del contexto: El autor proporciona información sobre el contexto en el que se desarrolló el producto. Esto puede incluir los objetivos, requisitos y restricciones del proyecto, así como cualquier otro factor relevante que pueda influir en la revisión.
+
+- Información necesaria: El autor asegura que los miembros del equipo tengan acceso a toda la información necesaria para prepararse adecuadamente para la inspección. Esto puede incluir documentos de referencia, estándares, especificaciones y cualquier otra información relevante que facilite la comprensión y la revisión del producto.
+
+La vista previa es una oportunidad para que el autor y los miembros del equipo se alineen y tengan una comprensión clara del contexto y los detalles del producto a ser inspeccionado. Esto ayuda a garantizar una revisión más efectiva y enfocada, donde todos los participantes están en la misma página y tienen una visión común.
+
+
+## Fases de una Inspección: Preparación
+
+La fase de preparación es esencial en el proceso de inspección, donde cada inspector se dedica a leer y comprender el material a ser revisado, y se prepara para desempeñar los roles asignados. A continuación se describen las etapas de esta fase:
+
+1. Lectura individual: Cada inspector lee el material a inspeccionar de forma individual, con el objetivo de comprenderlo en detalle y familiarizarse con su contenido. Esto permite a cada inspector adquirir un conocimiento profundo del producto y prepararse para identificar posibles fallas.
+
+2. Preparación de roles: Los inspectores se preparan para desempeñar los roles asignados en la inspección, como el rol de anotador, lector o inspector. Cada rol tiene sus responsabilidades específicas, y los inspectores se aseguran de comprender y asumir adecuadamente sus funciones durante la revisión.
+
+3. Identificación de fallas: Utilizando el producto de trabajo y checklists específicos del proyecto, los inspectores realizan una revisión individual del material para identificar posibles fallas o desviaciones. Esto se realiza antes de la reunión formal de inspección, y permite que cada inspector aporte sus observaciones y sugerencias.
+
+4. Influencia del tiempo de preparación: El tiempo de preparación puede variar según diferentes factores, como la verificación de la consistencia del documento a inspeccionar con su predecesor, el nivel de detalle o cantidad de información disponible sobre el producto, y el conocimiento y habilidad de los inspectores. Estos elementos pueden influir en la cantidad de tiempo necesario para una preparación exhaustiva.
+
+La fase de preparación es fundamental para garantizar la efectividad de la inspección. Un adecuado tiempo de preparación permite a los inspectores familiarizarse con el material, identificar fallas potenciales y estar listos para participar activamente en la reunión formal de inspección.
+
+
+## Fases de una Inspección: Inspección
+
+La fase de inspección es el corazón del proceso de inspección, donde el equipo de inspección revisa en conjunto el producto de trabajo y se dedica a encontrar fallas. A continuación se describen las etapas de esta fase:
+
+1. Encuentro de fallas: Durante la inspección, el equipo de inspección busca activamente fallas en el producto de trabajo. Estas fallas pueden incluir errores, desviaciones de estándares, omisiones o cualquier otro problema identificado en el producto.
+
+2. Revisión en grupo: El producto de trabajo es revisado de manera colaborativa por todo el grupo de inspección. Los inspectores comparten sus observaciones y discuten sobre las fallas encontradas. Esta revisión en grupo permite el intercambio de ideas, la identificación de puntos débiles y la detección de posibles mejoras.
+
+3. Sinergia: Durante la inspección en grupo, ocurre la sinergia entre los miembros del equipo. La colaboración y el debate constructivo ayudan a obtener una visión más completa del producto y a encontrar fallas de manera más eficiente. La sinergia fomenta la mejora continua y la búsqueda conjunta de soluciones.
+
+4. Registro de errores: Durante la inspección, se registran los errores encontrados. El escritor, que puede ser un miembro designado o el propio autor del producto, se encarga de tomar nota de las fallas identificadas. Estos registros servirán como base para la posterior corrección y mejora del producto.
+
+5. Disposición del documento: Al finalizar la inspección, se determina la disposición del documento revisado. Esto implica tomar decisiones sobre cómo abordar las fallas encontradas, establecer acciones correctivas y determinar el siguiente paso en el proceso de desarrollo o mejora del producto.
+
+
+## Fases de una Inspección: Seguimiento
+
+La fase de seguimiento en una inspección tiene como objetivo verificar la reparación de las fallas identificadas durante la inspección y garantizar la resolución de las acciones pendientes. A continuación se describen las características y posibles enfoques de esta fase:
+
+1. Verificación de la reparación: Se realiza una verificación para asegurar que las fallas identificadas durante la inspección hayan sido corregidas de manera adecuada. Esto implica revisar el producto de trabajo modificado o corregido para comprobar que las fallas reportadas hayan sido solucionadas de acuerdo con los criterios establecidos.
+
+2. Resolución de acciones pendientes: Si se identificaron acciones pendientes durante la inspección, es importante darles seguimiento para asegurar su resolución. Esto implica realizar un seguimiento de las acciones asignadas a los responsables correspondientes y asegurarse de que se lleven a cabo dentro de los plazos establecidos.
+
+3. Re-inspección (opcional): En algunos casos, puede ser necesario realizar una re-inspección completa del producto de trabajo corregido para verificar nuevamente la calidad y la corrección de las fallas identificadas anteriormente. Esto puede requerir la participación del equipo completo de inspección o, en casos más simples, puede ser llevado a cabo por el moderador o un subconjunto de inspectores.
+
+4. Seguimiento del moderador: En situaciones en las que la re-inspección no es necesaria, el moderador puede encargarse del seguimiento y supervisar la resolución de las fallas y las acciones pendientes. El moderador se asegura de que se realicen las correcciones adecuadas y de que el producto de trabajo cumpla con los estándares y requisitos establecidos.
+
+La fase de seguimiento es crucial para cerrar el ciclo de la inspección y asegurar que las fallas hayan sido solucionadas de manera efectiva. Además, permite realizar un seguimiento adecuado de las acciones pendientes y garantizar que el producto de trabajo esté en conformidad con los estándares y requerimientos establecidos.
+
+
+## Criterios de Entrada para las inspecciones de documentos;
+
+- No mas de 20 páginas.
+- Se deben incluir la referencia hacia otros documentos.
+- El documento debe estar completo en su totalidad.
+- Se ha preparado eI material adicional adecuado
+- El criterio de entrada es verificado por el moderador durante la fase de planificación.
+- El criterio debe ser mensurable (respuesta si / no).
+
+## Criterios de Entrada para las inspecciones de código;
+- No mas de 250 líneas
+- Se deben incluir los números de línea
+- El código compila completamente
+- El código cumple con los estándares correspondientes
+- Se ha inspeccionado el diseño correspondiente al código que se está inspeccionando.
+- Se ha preparado el material adicional adecuado
+- El criterio de entrada es verificado por el moderador durante la fase de planificación.
+- El criterio debe ser mensurable (respuesta si / no).
+
+## Métricas de una Inspección
+- Tamaño del material inspeccionado en una reunión.
+- Tiempo de preparación.
+- Tiempo total utilizado por todos los miembros del equipo de inspección antes de la reunión de inspección.
+- Cantidad de inspectores.
+- Tiempo de duración de la reunión
+- Esfuerzo de inspección.
+- Esfuerzo total utilizado para realizar la reunión de inspección.
+- Fallas encontradas (mayores y menores).
+
+## Checklist de la Inspección
+- ¿Se corrigió la ortografía del documento?
+- ¿Las referencias a otros documentos se realizaron de forma correcta?
+- ¿La numeración de las páginas es correcta?
+- ¿Está disponible el material de referencia?
+- ¿Es correcta la identificación de la versión del documento?
+- ¿Está actualizada la historia de revisiones del documento?
+- ¿El material tiene la numeración de las líneas?
+- ¿Se ha planificado la reunión de inspección?
+- ¿Se realizó la vista previa del documento (cuando aplique)?
+- ¿Se prepararon todos los miembros del equipo de inspección?
+- ¿Se llevó a cabo la reunión de inspección?
+- ¿Se llevó a cabo el re—trabajo del documento?
+- ¿EI moderador hizo el seguimiento del documento?
+- ¿Se llevó a cabo la re—inspección? (cuando aplique)
+
+## A tener en cuenta!!!!
+
+- Un documento puede estar sujeto a más de un tipo de revisión.
+- ¡NO atacar al autor! La revisión se hace sobre el producto de trabajo, no sobre la persona.
+- Hacer que sea una experiencia positiva para el autor.
